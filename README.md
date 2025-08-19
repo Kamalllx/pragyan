@@ -1,11 +1,13 @@
 # Backend
+
 ```bash
-cd backend  
+cd backend
 uvicorn app:app --reload
 ```
+
 # Frontend
 
 ```bash
-cd frontend 
+cd frontend_pragyan
 bun run dev
 ```
