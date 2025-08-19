@@ -1,0 +1,18 @@
+Create a complete Manim animation for educational content.
+
+Subject: physics
+Topic: projectile motion with gravity
+Complexity: beginner
+Requirements: . Use simple colors, clear labels, and slow animations for easy understanding. Include proper units, vector representations, and physical laws
+
+Generate a complete Python script that:
+1. Imports: from manim import *
+2. Creates a Scene class that inherits from Scene
+3. Has a construct method with educational animations
+4. Includes title, main content, and conclusion
+5. Uses proper self.wait() statements
+6. Is syntactically correct and complete
+
+Make it educational and visually appealing for beginner level.
+
+Generate ONLY the complete Python code:

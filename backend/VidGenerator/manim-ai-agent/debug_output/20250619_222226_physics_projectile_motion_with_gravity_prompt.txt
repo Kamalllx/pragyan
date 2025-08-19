@@ -1,0 +1,55 @@
+You are an expert educational content creator specializing in Manim animations.
+Generate a COMPLETE, production-ready Manim animation script. 
+
+CRITICAL: The code must be COMPLETE and syntactically correct. Do not truncate or cut off the code.
+
+CONTENT SPECIFICATIONS:
+Subject: physics
+Topic: projectile motion with gravity
+Complexity Level: intermediate
+Additional Requirements: . Include mathematical formulas, moderate animation speed, and detailed explanations. Include proper units, vector representations, and physical laws
+
+TECHNICAL REQUIREMENTS:
+1. Create a complete Scene class that inherits from manim.Scene
+2. Include proper imports: from manim import *
+3. Add educational annotations and labels using Text() and MathTex()
+4. Use appropriate colors and consistent styling
+5. Include smooth animations with proper timing (use self.wait())
+6. Add mathematical formulas where relevant using MathTex()
+7. Ensure the animation is educational, clear, and visually appealing
+8. Include detailed comments explaining each animation step
+9. Use proper Manim syntax and latest version compatibility
+10. Make animations run between 15-30 seconds total
+11. ENSURE ALL PARENTHESES, BRACKETS, AND BRACES ARE PROPERLY CLOSED
+12. COMPLETE ALL CODE BLOCKS - DO NOT LEAVE ANYTHING UNFINISHED
+
+ANIMATION STRUCTURE:
+- Start with a clear title
+- Introduce concepts gradually
+- Use visual transitions between ideas
+- End with a summary or conclusion
+- Include appropriate pauses for comprehension
+
+CODE REQUIREMENTS:
+- Generate ONLY Python code, no explanations
+- Make sure code is COMPLETE and EXECUTABLE
+- Close all parentheses and brackets
+- End all statements properly
+- Include proper indentation
+
+Example structure for physics:
+```
+from manim import *
+
+class PhysicsAnimation(Scene):
+def construct(self):
+# Title
+title = Text("Projectile Motion With Gravity", font_size=48)
+self.play(Write(title))
+self.play(title.animate.to_edge(UP))
+
+text    # Main content here - COMPLETE ALL SECTIONS
+    
+    self.wait(2)
+```
+GENERATE THE COMPLETE MANIM CODE NOW (ensure all syntax is correct and complete):

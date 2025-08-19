@@ -1,0 +1,46 @@
+2025-06-20 12:19:41,040 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 12:20:35,517 - manim_executor - INFO - validate_and_execute:78 - Starting validation and execution for: mathematics_trignometry_1220_02b5dccf
+2025-06-20 12:20:35,520 - manim_executor - INFO - _comprehensive_validation:159 - Code validation passed all checks
+2025-06-20 12:20:35,523 - manim_executor - INFO - _prepare_execution_context:329 - Execution context prepared: output\temp\mathematics_trignometry_1220_02b5dccf_1750402235
+2025-06-20 12:20:35,524 - manim_executor - INFO - _execute_with_monitoring:349 - Executing command: manim -ql mathematics_trignometry_1220_02b5dccf.py SineIntroduction
+2025-06-20 12:20:35,525 - manim_executor - ERROR - _execute_with_monitoring:395 - Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\mathematics_trignometry_1220_02b5dccf_execution.log'
+2025-06-20 12:20:35,525 - manim_executor - INFO - validate_and_execute:104 - Total execution time: 0.01 seconds
+2025-06-20 12:23:12,997 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 12:24:09,444 - manim_executor - INFO - validate_and_execute:78 - Starting validation and execution for: physics_projectile_motion_1224_06895782
+2025-06-20 12:24:09,444 - manim_executor - INFO - _comprehensive_validation:159 - Code validation passed all checks
+2025-06-20 12:24:09,447 - manim_executor - INFO - _prepare_execution_context:329 - Execution context prepared: output\temp\physics_projectile_motion_1224_06895782_1750402449
+2025-06-20 12:24:09,447 - manim_executor - INFO - _execute_with_monitoring:349 - Executing command: manim -ql physics_projectile_motion_1224_06895782.py ProjectileMotionScene
+2025-06-20 12:24:09,448 - manim_executor - ERROR - _execute_with_monitoring:395 - Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1224_06895782_execution.log'
+2025-06-20 12:24:09,448 - manim_executor - INFO - validate_and_execute:104 - Total execution time: 0.00 seconds
+2025-06-20 12:25:18,304 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 12:26:15,970 - manim_executor - INFO - validate_and_execute:78 - Starting validation and execution for: physics_projectile_motion_1226_503b776c
+2025-06-20 12:26:15,973 - manim_executor - INFO - _comprehensive_validation:159 - Code validation passed all checks
+2025-06-20 12:26:15,981 - manim_executor - INFO - _prepare_execution_context:329 - Execution context prepared: output\temp\physics_projectile_motion_1226_503b776c_1750402575
+2025-06-20 12:26:15,982 - manim_executor - INFO - _execute_with_monitoring:349 - Executing command: manim -ql physics_projectile_motion_1226_503b776c.py ProjectileMotion
+2025-06-20 12:26:15,983 - manim_executor - ERROR - _execute_with_monitoring:395 - Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1226_503b776c_execution.log'
+2025-06-20 12:26:15,983 - manim_executor - INFO - validate_and_execute:104 - Total execution time: 0.01 seconds
+2025-06-20 12:28:37,954 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 12:29:34,219 - manim_executor - INFO - validate_and_execute:78 - Starting validation and execution for: physics_projectile_motion_1229_256cc285
+2025-06-20 12:29:34,221 - manim_executor - INFO - _comprehensive_validation:159 - Code validation passed all checks
+2025-06-20 12:29:34,223 - manim_executor - INFO - _prepare_execution_context:329 - Execution context prepared: output\temp\physics_projectile_motion_1229_256cc285_1750402774
+2025-06-20 12:29:34,223 - manim_executor - INFO - _execute_with_monitoring:349 - Executing command: manim -ql physics_projectile_motion_1229_256cc285.py ProjectileMotionScene
+2025-06-20 12:29:34,224 - manim_executor - ERROR - _execute_with_monitoring:395 - Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1229_256cc285_execution.log'
+2025-06-20 12:29:34,224 - manim_executor - INFO - validate_and_execute:104 - Total execution time: 0.00 seconds
+2025-06-20 12:54:13,372 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 12:59:05,372 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 12:59:24,385 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 13:09:31,950 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 13:36:34,573 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 13:42:20,087 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 13:54:00,912 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 14:38:33,451 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 14:42:55,157 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 14:44:34,503 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 14:57:45,800 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 14:59:01,454 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 15:13:20,353 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 15:17:30,407 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 15:48:36,213 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 16:02:50,960 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 16:25:09,647 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-20 16:38:12,449 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully

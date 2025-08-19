@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Camera Scanner - AI Educational Generator</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/ar-camera.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="breadcrumb">
+                <a href="/">🏠 Home</a> > <span>AR Camera Scanner</span>
+            </nav>
+            <h1>📱 AR Camera Scanner</h1>
+            <p>Scan questions and topics from books, papers, or screens</p>
+        </header>
+
+        <!-- Camera Support Warning for Mobile -->
+        <div id="camera-warning" class="camera-warning" style="display: none;">
+            <div class="warning-content">
+                <h3>📱 Mobile Camera Access Notice</h3>
+                <p>Camera access requires HTTPS on mobile devices. Please use one of these options:</p>
+                <ul>
+                    <li>🔒 <strong>Use HTTPS:</strong> Access via <code>https://your-domain.com</code></li>
+                    <li>📷 <strong>Upload Image:</strong> Use the image upload feature below</li>
+                    <li>💻 <strong>Use Desktop:</strong> Camera works on desktop browsers</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="camera-section">
+            <div class="camera-container" id="camera-container">
+                <video id="camera-feed" autoplay playsinline></video>
+                <canvas id="camera-canvas" style="display: none;"></canvas>
+
+                <!-- AR Overlay -->
+                <div class="ar-overlay" id="ar-overlay">
+                    <div class="scan-indicator" id="scan-indicator">
+                        <div class="scan-corners"></div>
+                        <p id="scan-text">📸 Tap to scan or select region</p>
+                    </div>
+
+                    <!-- Selection box for region selection -->
+                    <div class="selection-box" id="selection-box" style="display: none;"></div>
+
+                    <!-- Detected text overlay -->
+                    <div class="detected-items" id="detected-items"></div>
+                </div>
+
+                <!-- Camera controls -->
+                <div class="camera-controls">
+                    <button id="start-camera-btn" class="btn btn-primary">📹 Start Camera</button>
+                    <button id="capture-btn" class="btn btn-success" style="display: none;">📸 Capture</button>
+                    <button id="select-region-btn" class="btn btn-secondary" style="display: none;">🎯 Select Region</button>
+                    <button id="stop-camera-btn" class="btn btn-danger" style="display: none;">⏹️ Stop</button>
+                </div>
+            </div>
+
+            <!-- Enhanced file upload section -->
+            <div class="upload-section">
+                <h3>📁 Upload Image (Recommended for Mobile)</h3>
+                <p>Take a photo with your phone's camera app, then upload it here:</p>
+                <input type="file" id="image-upload" accept="image/*" capture="camera" class="file-input">
+                <label for="image-upload" class="btn btn-outline">📷 Choose/Take Photo</label>
+                <div class="upload-tips">
+                    <p><strong>💡 Tips for better results:</strong></p>
+                    <ul>
+                        <li>Ensure good lighting</li>
+                        <li>Keep text clearly visible</li>
+                        <li>Avoid shadows and glare</li>
+                        <li>Hold phone steady</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Extracted content section -->
+        <div id="extracted-section" class="extracted-section" style="display: none;">
+            <h2>🔍 Extracted Content</h2>
+
+            <div class="extracted-text">
+                <h3>📝 Full Text</h3>
+                <div id="full-extracted-text" class="text-content"></div>
+            </div>
+
+            <div class="questions-topics">
+                <h3>🎯 Detected Questions & Topics</h3>
+                <div id="questions-list" class="items-list"></div>
+            </div>
+
+            <div class="processing-options">
+                <h3>⚙️ Processing Options</h3>
+                <div class="options-row">
+                    <select id="complexity-select">
+                        <option value="beginner">🟢 Beginner</option>
+                        <option value="intermediate" selected>🟡 Intermediate</option>
+                        <option value="advanced">🔴 Advanced</option>
+                    </select>
+                    <select id="language-select">
+                        <option value="english">🇺🇸 English</option>
+                        <option value="hindi">🇮🇳 Hindi</option>
+                        <option value="tamil">🇮🇳 Tamil</option>
+                        <option value="bengali">🇮🇳 Bengali</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- AR Results -->
+        <div id="ar-results" class="ar-results-overlay" style="display: none;">
+            <div class="ar-results-content">
+                <h2>🎉 AI Generated Content</h2>
+
+                <div class="ar-video-player">
+                    <video id="ar-video" controls style="display: none;"></video>
+                    <div id="ar-video-placeholder">🎬 Video will appear here</div>
+                </div>
+
+                <div class="ar-info-panel">
+                    <div id="ar-generation-info"></div>
+                    <div id="ar-document-links"></div>
+                </div>
+
+                <div class="ar-controls">
+                    <button class="btn btn-primary" onclick="downloadContent()">💾 Download</button>
+                    <button class="btn btn-secondary" onclick="shareArContent()">📤 Share</button>
+                    <button class="btn btn-outline" onclick="closeArResults()">❌ Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="ar-loading" class="ar-loading-overlay" style="display: none;">
+            <div class="ar-loading-content">
+                <div class="loading-spinner-large"></div>
+                <h3>🤖 AI Processing...</h3>
+                <p id="ar-loading-message">Analyzing captured content...</p>
+                <div class="loading-progress">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pass server-side variables into JS (with fallback for dev) -->
+    <script>
+        try {
+            window.isSecureContext = {{ is_secure_context|tojson }};
+            window.currentHost = {{ current_host|tojson }};
+        } 
+        catch (e) {
+            // Fallback for local testing
+            window.isSecureContext = location.protocol === 'https:';
+            window.currentHost = location.host;
+        }
+    </script>
+
+    <script src="/static/js/ar-camera.js"></script>
+
+    <script>
+        // Display or hide warning based on context
+        if (window.isSecureContext) {
+            document.getElementById('camera-warning').style.display = 'none';
+        } else {
+            document.getElementById('camera-warning').style.display = 'block';
+        }
+
+        // Initialize components when DOM is ready
+        document.addEventListener('DOMContentLoaded', function () {
+            initCamera();
+            initImageUpload();
+            initArCameraControls();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+You are an expert Manim animation developer with REINFORCEMENT LEARNING capabilities.
+You have learned from 0 previous errors and 5 successful patterns.
+
+GENERATION PARAMETERS:
+Subject: general
+Topic: Educational Content
+Complexity Level: beginner
+Specific Requirements: The explanation should be based on the provided educational content
+
+
+
+
+=== LAYOUT OPTIMIZATION (ANTI-OVERLAP) ===
+- Keep elements within frame boundaries
+  Example: .move_to(ORIGIN)
+- Use DOWN, UP, LEFT, RIGHT for positioning
+  Example: .shift(DOWN * 2)
+- Maintain minimum spacing of 0.5 units
+  Example: .arrange(DOWN, buff=0.5)
+- Group related elements using VGroup
+  Example: VGroup(obj1, obj2)
+- Use .to_edge() for frame-relative positioning
+  Example: .to_edge(UP)
+
+
+
+=== PROVEN SUCCESS PATTERNS ===
+- general - Explain Educational Content: Quality 100.0/100
+- general - Explain Educational Content: Quality 100.0/100
+- general - Educational Content: Quality 100.0/100
+
+
+SUBJECT-SPECIFIC CONTEXT:
+Create educational content with clear explanations
+
+COMPLEXITY INSTRUCTIONS:
+Use simple language, basic concepts, slow animations, and clear visual explanations
+
+ENHANCED TECHNICAL REQUIREMENTS WITH ERROR PREVENTION:
+
+✅ MANDATORY API COMPATIBILITY (Zero Tolerance):
+- Use ONLY modern Manim v0.19.0 API methods
+- Start with: from manim import *
+- Create a complete Scene class with construct method
+- Use Text() for simple text, MathTex() for math (KEEP SIMPLE!)
+- Use basic shapes: Circle, Rectangle, Triangle, Line, Polygon
+- Use VGroup for grouping objects
+- Use animations: Write, Create, FadeIn, FadeOut, Transform, Indicate
+- Include proper self.wait() statements between animations
+- End with self.wait(2)
+
+❌ ABSOLUTELY FORBIDDEN (LEARNED FROM ERRORS):
+- get_sides() method - DOES NOT EXIST
+- get_part_by_text() method - DOES NOT EXIST  
+- get_part_by_tex() method - DOES NOT EXIST
+- Indicate(obj, color=X) - color parameter NOT SUPPORTED
+- text_alignment= - use text_align=
+- Empty MathTex like r"\\text{}" - CAUSES COMPILATION ERRORS
+- Complex nested LaTeX - KEEP SIMPLE
+
+🎯 LAYOUT MANAGEMENT (ANTI-OVERLAP SYSTEM):
+- Use VGroup for organizing multiple objects
+- Apply .arrange(DOWN, buff=0.8) for vertical spacing
+- Apply .arrange(RIGHT, buff=1.2) for horizontal spacing  
+- Use .to_edge(UP/DOWN/LEFT/RIGHT) for frame positioning
+- Keep objects within frame: -7 < x < 7, -4 < y < 4
+- Minimum spacing between objects: 1.0 units
+- Use .next_to() with proper buff parameter
+- Group related elements before positioning
+
+📐 FRAME SAFETY SYSTEM:
+- Text objects: Use font_size=24 or smaller
+- Positions: Stay within safe zone [-6, 6] x [-3.5, 3.5]
+- Use .scale(0.8) if objects appear too large
+- Test positioning with .move_to(ORIGIN) first
+- Use .shift() for fine adjustments only
+
+🎨 ANIMATION STRUCTURE FOR EDUCATIONAL CONTENT IN GENERAL:
+1. Title introduction (positioned safely at TOP)
+2. Main educational content with visual demonstrations
+3. Key concepts with clear explanations (proper spacing)
+4. Examples or applications (organized layout)
+5. Summary or conclusion (bottom positioning)
+
+SPECIFIC CONTENT GENERATION FOR "Educational Content" IN general:
+- Create educational content specifically about Educational Content
+- Make it appropriate for beginner level learners
+- Include visual representations relevant to the topic
+- Add clear explanations and demonstrations
+- Follow spacing and positioning rules above
+- The explanation should be based on the provided educational content
+
+QUALITY ASSURANCE CHECKLIST:
+□ All objects positioned with adequate spacing
+□ No overlapping elements
+□ Frame boundaries respected
+□ VGroup used for organization
+□ Modern Manim API only
+□ LaTeX kept simple and safe
+□ Proper wait() statements included
+□ Educational value maximized
+
+Generate a COMPLETE, SAFE, LEARNING-ENHANCED Manim animation that educates about Educational Content in general:

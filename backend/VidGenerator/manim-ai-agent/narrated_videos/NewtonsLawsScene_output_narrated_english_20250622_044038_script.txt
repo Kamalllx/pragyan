@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-22 04:40:46.048467
+Subject: physics
+Topic: newtons laws
+==================================================
+
+The answers lie in three simple, yet powerful, rules from Sir Isaac Newton. It says an object will stay at rest, or continue moving at a constant speed, unless an outside force acts on it. It just sits there until the striker hits it. Next, the Second Law, which tells us how force, mass, and acceleration are related. That’s because the force you need is equal to the object's mass times its acceleration. More mass needs more force! For every action, there is an equal and opposite reaction. The force you exert on the boat is perfectly matched by the force the boat exerts back on you. So, inertia, force and acceleration, and action-reaction. They are the basic rules of how everything moves.

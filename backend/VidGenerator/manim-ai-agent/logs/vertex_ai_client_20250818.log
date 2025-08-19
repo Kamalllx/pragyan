@@ -1,0 +1,20 @@
+2025-08-18 23:21:07,837 - vertex_ai_client - INFO - 🔧 Initializing AI-POWERED Vertex AI client with Learning...
+2025-08-18 23:21:10,423 - vertex_ai_client - INFO - ✅ Gen AI Client created successfully
+2025-08-18 23:21:10,423 - vertex_ai_client - INFO - 🤖 Using model: gemini-2.5-pro
+2025-08-18 23:21:12,219 - vertex_ai_client - INFO - ✅ Cloud storage ready: warp-ai-hackathon-manim-codes
+2025-08-18 23:21:12,219 - vertex_ai_client - INFO - 🧪 Testing basic generation...
+2025-08-18 23:21:17,147 - vertex_ai_client - INFO - ✅ Test successful: Hello from AI-Powered Manim Generator with Learnin...
+2025-08-18 23:21:17,148 - vertex_ai_client - INFO - ✅ AI-POWERED Vertex AI client with Learning initialized successfully
+2025-08-18 23:21:17,161 - vertex_ai_client - INFO - 🔧 Initializing AI-POWERED Vertex AI client with Learning...
+2025-08-18 23:21:18,035 - vertex_ai_client - INFO - ✅ Gen AI Client created successfully
+2025-08-18 23:21:18,035 - vertex_ai_client - INFO - 🤖 Using model: gemini-2.5-pro
+2025-08-18 23:21:19,670 - vertex_ai_client - INFO - ✅ Cloud storage ready: warp-ai-hackathon-manim-codes
+2025-08-18 23:21:19,670 - vertex_ai_client - INFO - 🧪 Testing basic generation...
+2025-08-18 23:21:23,423 - vertex_ai_client - INFO - ✅ Test successful: Hello from AI-Powered Manim Generator with Learnin...
+2025-08-18 23:21:23,423 - vertex_ai_client - INFO - ✅ AI-POWERED Vertex AI client with Learning initialized successfully
+2025-08-18 23:26:12,461 - vertex_ai_client - INFO - 🚀 Starting enhanced generation for: general - nuclear fission  (intermediate)
+2025-08-18 23:28:00,053 - vertex_ai_client - INFO - ☁️ Video saved to cloud: generated_videos/general_nuclear_fission__20250818_232752.mp4
+2025-08-18 23:28:00,054 - vertex_ai_client - INFO - ☁️ Code saved to cloud: generated_codes/general_nuclear_fission__20250818_232752.py
+2025-08-18 23:30:38,359 - vertex_ai_client - INFO - 🚀 Starting enhanced generation for: general - Explain Indian Space Research Organisation (ISRO) based on this educational content (intermediate)
+2025-08-18 23:35:01,165 - vertex_ai_client - INFO - ☁️ Video saved to cloud: generated_videos/general_Explain_Indian_Space_Research_Organisation_(ISRO)_based_on_this_educational_content_20250818_233454.mp4
+2025-08-18 23:35:01,165 - vertex_ai_client - INFO - ☁️ Code saved to cloud: generated_codes/general_Explain_Indian_Space_Research_Organisation_(ISRO)_based_on_this_educational_content_20250818_233454.py

@@ -1,0 +1,48 @@
+You are an expert Manim animation developer. Create a complete, educational Manim animation.
+
+DYNAMIC PARAMETERS:
+Subject: mathematics
+Topic: trignometry
+Complexity Level: beginner
+Specific Requirements: explain the basics of trignometry along with visuals , fomulae and maybe example. Use simple colors, large clear labels, slow animations for easy understanding, basic concepts only, avoid complex mathematics. Show step-by-step calculations, use coordinate systems, proper mathematical notation, proofs where appropriate, clear logic flow. Ensure code is AI-generated, execution-ready with proper Manim syntax, complete animations, and no deprecated methods.
+
+SUBJECT-SPECIFIC CONTEXT:
+Show step-by-step calculations, use coordinate systems, proper mathematical notation
+
+COMPLEXITY INSTRUCTIONS:
+Use simple language, basic concepts, slow animations, and clear visual explanations
+
+CRITICAL TECHNICAL REQUIREMENTS:
+✅ Use ONLY modern Manim v0.19.0 API methods
+✅ Start with: from manim import *
+✅ Create a complete Scene class with construct method
+✅ Use Text() for simple text, MathTex() for math (keep simple)
+✅ Use basic shapes: Circle, Rectangle, Triangle, Line, Polygon
+✅ Use VGroup for grouping objects
+✅ Use animations: Write, Create, FadeIn, FadeOut, Transform, Indicate
+✅ Include proper self.wait() statements between animations
+✅ End with self.wait(2)
+
+FORBIDDEN (will cause errors):
+❌ get_sides() method - doesn't exist
+❌ get_part_by_text() method - doesn't exist  
+❌ get_part_by_tex() method - doesn't exist
+❌ Indicate(obj, color=X) - color parameter not supported
+❌ text_alignment= - use text_align=
+❌ Complex deprecated methods
+
+ANIMATION STRUCTURE:
+1. Title introduction
+2. Main educational content with visual demonstrations
+3. Key concepts with clear explanations
+4. Examples or applications
+5. Summary or conclusion
+
+SPECIFIC CONTENT FOR TRIGNOMETRY IN MATHEMATICS:
+- Create educational content specifically about trignometry
+- Make it appropriate for beginner level learners
+- Include visual representations relevant to the topic
+- Add clear explanations and demonstrations
+- explain the basics of trignometry along with visuals , fomulae and maybe example. Use simple colors, large clear labels, slow animations for easy understanding, basic concepts only, avoid complex mathematics. Show step-by-step calculations, use coordinate systems, proper mathematical notation, proofs where appropriate, clear logic flow. Ensure code is AI-generated, execution-ready with proper Manim syntax, complete animations, and no deprecated methods.
+
+Generate a COMPLETE, working Manim animation that educates about trignometry in mathematics:

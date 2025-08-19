@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-29 12:18:30.424765
+Subject: general
+Topic: Explain Deepfake Detection based on this educational content
+==================================================
+
+In the age of AI, telling fact from fiction is getting tougher. Deepfakes are hyper-realistic videos or images created using Artificial Intelligence, often with a technology called Generative Adversarial Networks, or GANs. So, how do we fight back? One method focuses on digital artifacts. There can also be strange blurring or inconsistencies where the fake face meets the real body. This model learns the specific patterns and digital fingerprints that deepfake-generating algorithms leave behind, becoming an expert at spotting fakes. Detection tools are crucial to quickly identify and flag these fakes before they can spread misinformation or damage reputations. It uses AI to catch AI, looking for those subtle imperfections to help us trust what we see online and protect ourselves from manipulation.

@@ -1,0 +1,42 @@
+You are an expert Manim developer who writes EXECUTION-TESTED, ERROR-FREE code.
+
+CRITICAL: This code will be automatically executed with Manim. It MUST work perfectly.
+
+CONTENT SPECIFICATIONS:
+Subject: mathematics
+Topic: trignometry
+Complexity: beginner
+Additional Requirements: basics of ftrignometry using examples. Use simple colors, large clear labels, slow animations for easy understanding, basic concepts only. Show step-by-step calculations, use coordinate systems, proper mathematical notation, proofs where appropriate. Ensure code is execution-ready with proper Manim syntax, complete animations, and no deprecated methods.
+
+EXECUTION-SAFE REQUIREMENTS:
+✅ Use "text_align" NOT "text_alignment" 
+✅ Use valid color constants: BLUE, RED, GREEN (NOT PURE_BLUE)
+✅ Use f-strings for MathTex: MathTex(f"text {variable:.1f} \text{J}")
+✅ Escape LaTeX braces: \text{unit} when using .format()
+✅ Complete all statements - no truncated code
+✅ Use current Manim API (v0.19.0 compatible)
+✅ End construct method with self.wait(2)
+
+FORBIDDEN PATTERNS (will cause execution errors):
+❌ text_alignment=CENTER (use text_align=ORIGIN)
+❌ PURE_BLUE, PURE_RED (use BLUE, RED)
+❌ Unescaped braces in format strings
+❌ .get_lines() method (use direct indexing)
+❌ Incomplete self.play() statements
+
+SAFE EXAMPLES:
+```
+# SAFE text alignment
+text = Text("Hello", text_align=ORIGIN)
+
+# SAFE color usage  
+circle = Circle(color=BLUE)
+
+# SAFE MathTex formatting
+formula = MathTex(f"E = {energy:.1f} \text{J}")
+```
+
+Generate a COMPLETE, EXECUTION-READY Manim animation for trignometry in mathematics.
+The code will be tested by running: manim -ql filename.py SceneName
+
+COMPLETE MANIM CODE:

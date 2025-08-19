@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-22 11:47:26.963084
+Subject: physics
+Topic: projectile motion
+==================================================
+
+That's a perfect example of projectile motion! The secret to understanding its journey is to see it as two separate motions happening at the same time. Vertically, however, gravity is in control, pulling it down with constant acceleration. So, whether it's a javelin thrown by an athlete or simply a fountain of water, the principle is the same. Horizontal and vertical motions are independent, but together they create the predictable path of a projectile.

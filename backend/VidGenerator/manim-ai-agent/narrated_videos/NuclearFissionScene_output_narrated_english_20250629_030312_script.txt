@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-29 03:03:20.756892
+Subject: general
+Topic: Explain Nuclear Fission based on this educational content
+==================================================
+
+The secret lies in a process called nuclear fission. When a tiny particle called a neutron strikes it, the nucleus becomes highly unstable and splits into two smaller nuclei. But that's not all! These new neutrons can then go on to strike other uranium nuclei, triggering more fissions. This is the very principle that powers many of our cities, through nuclear power plants like the one at Tarapur in Maharashtra, providing us with clean electricity.

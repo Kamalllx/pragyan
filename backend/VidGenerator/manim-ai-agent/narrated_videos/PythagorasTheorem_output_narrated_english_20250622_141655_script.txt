@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-22 14:17:02.605715
+Subject: mathematics
+Topic: Pythagoras Theorem
+==================================================
+
+The answer lies in one of the most famous ideas in mathematics: the Pythagoras Theorem. The two sides that form this right angle are called the legs. The brilliant ancient Greek mathematician Pythagoras discovered a magical relationship here. We write this as the simple formula: a squared plus b squared equals c squared. If you know the length and the height, you can find the exact slope. If you know the length of the string and how high it is, you can find how far away it is on the ground.

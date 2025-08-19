@@ -1,0 +1,8 @@
+2025-06-19 19:52:12,427 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-19 20:12:01,399 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-19 20:17:00,213 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-19 22:08:47,202 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-19 22:10:26,566 - manim_executor - INFO - validate_and_execute:78 - Starting validation and execution for: physics_Projectile_motion_2210_0a69f082
+2025-06-19 22:10:26,568 - manim_executor - ERROR - validate_and_execute:85 - Code validation failed: Syntax error: '(' was never closed (<unknown>, line 50)
+2025-06-19 22:21:16,978 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully
+2025-06-19 22:21:41,380 - manim_executor - INFO - __init__:59 - ManimExecutor initialized successfully

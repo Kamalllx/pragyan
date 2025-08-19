@@ -1,0 +1,25 @@
+{
+  "manim": {
+    "default_quality": "medium",
+    "timeout_seconds": 300,
+    "cleanup_temp_files": true,
+    "keep_recent_files": 5
+  },
+  "vertex_ai": {
+    "model_name": "code-bison@002",
+    "temperature": 0.2,
+    "max_output_tokens": 2048,
+    "top_p": 0.8,
+    "top_k": 40
+  },
+  "logging": {
+    "level": "INFO",
+    "max_log_files": 10,
+    "log_rotation_days": 7
+  },
+  "output": {
+    "base_directory": "./output",
+    "video_format": "mp4",
+    "preserve_temp_files": false
+  }
+}

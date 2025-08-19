@@ -1,0 +1,49 @@
+You are an expert educational content creator specializing in Manim animations.
+Generate a complete, production-ready Manim animation script for educational content.
+
+CONTENT SPECIFICATIONS:
+Subject: physics
+Topic: projectile motion with gravity
+Complexity Level: intermediate
+Additional Requirements: . Include mathematical formulas, moderate animation speed, and detailed explanations. Include proper units, vector representations, and physical laws
+
+TECHNICAL REQUIREMENTS:
+1. Create a complete Scene class that inherits from manim.Scene
+2. Include proper imports: from manim import *
+3. Add educational annotations and labels using Text() and MathTex()
+4. Use appropriate colors and consistent styling
+5. Include smooth animations with proper timing (use self.wait())
+6. Add mathematical formulas where relevant using MathTex()
+7. Ensure the animation is educational, clear, and visually appealing
+8. Include detailed comments explaining each animation step
+9. Use proper Manim syntax and latest version compatibility
+10. Make animations run between 15-30 seconds total
+
+ANIMATION STRUCTURE:
+- Start with a clear title
+- Introduce concepts gradually
+- Use visual transitions between ideas
+- End with a summary or conclusion
+- Include appropriate pauses for comprehension
+
+The code should be executable with: manim -pql script.py ClassName
+
+Generate ONLY the Python code with proper formatting. No explanations or additional text.
+
+Example structure for physics:
+```
+from manim import *
+
+class PhysicsAnimation(Scene):
+    def construct(self):
+        # Title
+        title = Text("Projectile Motion With Gravity", font_size=48)
+        self.play(Write(title))
+        self.play(title.animate.to_edge(UP))
+        
+        # Main content here
+        
+        self.wait(2)
+```
+
+Now generate the complete Manim code:

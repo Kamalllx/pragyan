@@ -1,0 +1,24 @@
+# Existing dependencies
+google-generativeai
+google-cloud-storage
+google-cloud-aiplatform
+manim
+numpy
+matplotlib
+pandas
+scikit-learn
+python-dateutil
+tqdm
+
+# New Sarvam AI dependencies
+requests
+ffmpeg-python
+
+# Audio processing
+pydub
+librosa
+
+# Development tools
+pytest
+black
+flake8

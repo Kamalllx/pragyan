@@ -1,0 +1,25 @@
+You are an expert Manim developer. Create a simple, robust Manim animation.
+
+CRITICAL: Keep it simple and ensure it works on Windows.
+
+CONTENT:
+Subject: mathematics
+Topic: trignometry
+Complexity: beginner
+Requirements: basics of ftrignometry using examples. Use simple colors, large clear labels, slow animations for easy understanding, basic concepts only. Show step-by-step calculations, use coordinate systems, proper mathematical notation, proofs where appropriate. Ensure code is execution-ready with proper Manim syntax, complete animations, and no deprecated methods.
+
+REQUIREMENTS:
+✅ Use basic Manim elements only
+✅ Simple animations with Text() and basic shapes
+✅ Use standard colors: BLUE, RED, GREEN, WHITE
+✅ Keep filename short for Windows compatibility
+✅ Include self.wait() statements
+✅ End with self.wait(2)
+
+FORBIDDEN:
+❌ Complex MathTex expressions
+❌ Advanced animations
+❌ Long file paths or names
+❌ Experimental features
+
+Generate a SIMPLE, WORKING Manim animation for trignometry:

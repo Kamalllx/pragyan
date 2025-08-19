@@ -1,0 +1,98 @@
+2025-06-22 02:39:41,427 - layout_manager - INFO - Layout Manager initialized
+2025-06-22 02:40:09,663 - layout_manager - INFO - Layout Manager initialized
+2025-06-22 02:44:04,229 - layout_manager - INFO - Layout Manager initialized
+2025-06-22 02:44:25,881 - layout_manager - INFO - Layout Manager initialized
+2025-06-22 02:45:21,465 - layout_manager - INFO - Layout analysis complete: 3 overlapping risks, 6 overflow risks
+2025-06-22 02:45:31,686 - layout_manager - INFO - Layout analysis complete: 10 overlapping risks, 4 overflow risks
+2025-06-22 02:45:31,701 - layout_manager - INFO - Layout analysis complete: 62 overlapping risks, 4 overflow risks
+2025-06-22 02:45:39,298 - layout_manager - INFO - Layout analysis complete: 1964 overlapping risks, 4 overflow risks
+2025-06-22 03:00:59,547 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 03:00:59,550 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 03:01:21,817 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 03:02:26,872 - layout_manager - INFO - Layout analysis complete: 11 overlapping risks, 6 overflow risks
+2025-06-22 03:02:37,953 - layout_manager - INFO - Layout analysis complete: 16 overlapping risks, 6 overflow risks
+2025-06-22 03:14:39,467 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 03:15:28,519 - layout_manager - INFO - Layout analysis complete: 22 overlapping risks, 0 overflow risks
+2025-06-22 03:16:10,526 - layout_manager - INFO - Layout analysis complete: 78 overlapping risks, 0 overflow risks
+2025-06-22 03:16:57,829 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 03:18:07,610 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 03:19:29,228 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 03:20:40,586 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 03:22:10,150 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 03:23:39,417 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 03:56:29,503 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 03:57:30,542 - layout_manager - INFO - Layout analysis complete: 20 overlapping risks, 6 overflow risks
+2025-06-22 04:00:39,407 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 04:01:57,306 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 2 overflow risks
+2025-06-22 04:10:13,565 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 04:10:55,145 - layout_manager - INFO - Layout analysis complete: 51 overlapping risks, 5 overflow risks
+2025-06-22 04:14:55,959 - layout_manager - INFO - Layout analysis complete: 51 overlapping risks, 5 overflow risks
+2025-06-22 04:20:27,780 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 04:21:09,975 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 04:21:51,533 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 04:35:18,448 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 04:36:02,061 - layout_manager - INFO - Layout analysis complete: 1 overlapping risks, 1 overflow risks
+2025-06-22 04:39:54,243 - layout_manager - INFO - Layout analysis complete: 1 overlapping risks, 1 overflow risks
+2025-06-22 04:54:21,598 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 04:54:27,796 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 04:54:27,800 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 04:57:17,433 - layout_manager - INFO - Layout analysis complete: 30 overlapping risks, 0 overflow risks
+2025-06-22 04:59:26,100 - layout_manager - INFO - Layout analysis complete: 30 overlapping risks, 0 overflow risks
+2025-06-22 05:11:11,397 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:11:17,008 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:11:17,012 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:11:50,977 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:11:56,613 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:11:56,617 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:18:04,173 - layout_manager - INFO - Layout analysis complete: 21 overlapping risks, 0 overflow risks
+2025-06-22 05:19:17,484 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:19:23,942 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:19:23,947 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:20:21,542 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 05:21:42,595 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 05:25:53,125 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:26:01,144 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:26:01,149 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:27:35,998 - layout_manager - INFO - Layout analysis complete: 1 overlapping risks, 0 overflow risks
+2025-06-22 05:29:00,778 - layout_manager - INFO - Layout analysis complete: 1 overlapping risks, 0 overflow risks
+2025-06-22 05:33:37,066 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:33:42,340 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:33:42,363 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:52:53,008 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:52:58,521 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 05:52:58,524 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 06:21:28,139 - layout_manager - INFO - Layout analysis complete: 22 overlapping risks, 0 overflow risks
+2025-06-22 06:34:56,661 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 06:35:02,235 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 06:35:02,238 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 07:51:40,058 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 07:55:31,684 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 08:01:44,058 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 08:01:51,483 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 08:01:51,497 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 08:19:14,939 - layout_manager - INFO - Layout analysis complete: 29 overlapping risks, 1 overflow risks
+2025-06-22 08:35:03,943 - layout_manager - INFO - Layout analysis complete: 29 overlapping risks, 1 overflow risks
+2025-06-22 09:25:38,046 - layout_manager - INFO - Layout analysis complete: 46 overlapping risks, 0 overflow risks
+2025-06-22 09:26:52,647 - layout_manager - INFO - Layout analysis complete: 46 overlapping risks, 0 overflow risks
+2025-06-22 11:45:06,334 - layout_manager - INFO - Layout analysis complete: 28 overlapping risks, 2 overflow risks
+2025-06-22 11:46:27,769 - layout_manager - INFO - Layout analysis complete: 28 overlapping risks, 2 overflow risks
+2025-06-22 13:38:42,246 - layout_manager - INFO - Layout analysis complete: 17 overlapping risks, 0 overflow risks
+2025-06-22 13:40:02,884 - layout_manager - INFO - Layout analysis complete: 28 overlapping risks, 0 overflow risks
+2025-06-22 14:13:26,380 - layout_manager - INFO - Layout analysis complete: 26 overlapping risks, 0 overflow risks
+2025-06-22 14:15:50,272 - layout_manager - INFO - Layout analysis complete: 26 overlapping risks, 0 overflow risks
+2025-06-22 14:22:27,103 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 14:23:01,927 - layout_manager - INFO - Layout analysis complete: 0 overlapping risks, 0 overflow risks
+2025-06-22 14:30:33,904 - layout_manager - INFO - Layout analysis complete: 37 overlapping risks, 0 overflow risks
+2025-06-22 14:31:53,704 - layout_manager - INFO - Layout analysis complete: 56 overlapping risks, 0 overflow risks
+2025-06-22 15:00:02,560 - layout_manager - INFO - Layout analysis complete: 29 overlapping risks, 0 overflow risks
+2025-06-22 15:05:45,770 - layout_manager - INFO - Layout analysis complete: 29 overlapping risks, 0 overflow risks
+2025-06-22 15:08:10,710 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 15:08:19,135 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 15:08:19,140 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 15:09:05,023 - layout_manager - INFO - Layout analysis complete: 63 overlapping risks, 0 overflow risks
+2025-06-22 15:09:35,002 - layout_manager - INFO - Layout analysis complete: 63 overlapping risks, 0 overflow risks
+2025-06-22 15:33:44,828 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 15:33:52,580 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 15:33:52,585 - layout_manager - INFO - Layout Manager initialized with enhanced debugging
+2025-06-22 15:37:01,978 - layout_manager - INFO - Layout analysis complete: 22 overlapping risks, 0 overflow risks
+2025-06-22 15:40:21,805 - layout_manager - INFO - Layout analysis complete: 22 overlapping risks, 0 overflow risks

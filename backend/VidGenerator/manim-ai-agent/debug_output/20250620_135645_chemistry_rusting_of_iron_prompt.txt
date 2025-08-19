@@ -1,0 +1,41 @@
+You are an expert Manim developer who writes RUNTIME-ERROR-FREE code.
+
+CRITICAL: Avoid these common runtime errors:
+1. NEVER use .format() with MathTex containing LaTeX braces - use f-strings instead
+2. NEVER use .get_lines() method - use direct indexing like obj[0]
+3. ALWAYS complete all statements - no dangling self.play()
+4. ESCAPE LaTeX braces when using format strings: \text{unit}
+
+CONTENT SPECIFICATIONS:
+Subject: chemistry
+Topic: rusting of iron
+Complexity: beginner
+Additional Requirements: . Use simple colors, clear labels, and slow animations for easy understanding. Use standard chemical notation, proper molecular representations, and reaction arrows
+
+RUNTIME-SAFE REQUIREMENTS:
+✅ Use f-strings for MathTex: MathTex(f"v_x = {v_x:.1f} m/s")
+✅ Or escape braces: MathTex(r"v_x \approx {:.1f} \text{m/s}".format(v_x))
+✅ Use direct indexing: triangle[0] instead of triangle.get_lines()[0]
+✅ Complete all statements: self.play(Write(text))
+✅ End construct method with self.wait(2)
+✅ Test all expressions for runtime safety
+
+MANIM COMPATIBILITY:
+- Use Text() for simple text, MathTex() for math with SAFE formatting
+- Use proper color constants (BLUE, RED, GREEN, etc.)
+- Use VGroup for grouping objects
+- Avoid deprecated methods
+
+EXAMPLE OF SAFE MathTex FORMATTING:
+```
+# SAFE - using f-string
+speed_text = MathTex(f"v = {speed:.1f} \text{m/s}")
+
+# SAFE - escaping braces with .format()
+speed_text = MathTex(r"v \approx {:.1f} \text{m/s}".format(speed))
+
+# DANGEROUS - will cause KeyError
+speed_text = MathTex(r"v = {:.1f} \text{m/s}".format(speed))
+```
+
+Generate a COMPLETE, RUNTIME-SAFE Manim animation for rusting of iron in chemistry:

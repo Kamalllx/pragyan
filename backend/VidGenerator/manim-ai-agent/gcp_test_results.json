@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-06-19T20:50:08.532919",
+  "environment_check": {
+    "GOOGLE_CLOUD_PROJECT": {
+      "value": "warp-ai-hackathon",
+      "status": "SET"
+    },
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "value": "./gcp-credentials.json",
+      "status": "SET"
+    },
+    "VERTEX_AI_LOCATION": {
+      "value": "asia-south1",
+      "status": "SET"
+    }
+  },
+  "file_access": {
+    "exists": true,
+    "project_id": "warp-ai-hackathon",
+    "client_email": "warp-ai-hackathon@appspot.gserviceaccount.com"
+  },
+  "basic_imports": {
+    "google.cloud.aiplatform": "Available",
+    "google.oauth2.service_account": "Available",
+    "google.auth": "Available",
+    "vertexai": "Available"
+  },
+  "authentication": {
+    "credentials_loaded": true,
+    "vertex_ai_initialized": true,
+    "project_id": "warp-ai-hackathon",
+    "location": "asia-south1"
+  },
+  "api_access": {
+    "model_service_client": true,
+    "endpoint_accessible": true,
+    "endpoint": "asia-south1-aiplatform.googleapis.com"
+  },
+  "models": {
+    "asia-south1": {
+      "count": 0,
+      "models": []
+    }
+  },
+  "regional_models": {
+    "us-central1": {
+      "available": false,
+      "count": 0
+    },
+    "us-east1": {
+      "available": false,
+      "count": 0
+    },
+    "us-west1": {
+      "available": false,
+      "count": 0
+    },
+    "europe-west1": {
+      "available": false,
+      "count": 0
+    },
+    "europe-west4": {
+      "available": false,
+      "count": 0
+    },
+    "asia-east1": {
+      "available": false,
+      "count": 0
+    },
+    "asia-southeast1": {
+      "available": false,
+      "count": 0
+    },
+    "asia-south1": {
+      "available": false,
+      "count": 0
+    }
+  },
+  "generative_models": {
+    "text-bison@001": {
+      "available": false,
+      "error": "404 Publisher Model `publishers/google/models/text-bison@001` is not found."
+    },
+    "text-bison@002": {
+      "available": false,
+      "error": "404 Publisher Model `publishers/google/models/text-bison@002` is not found."
+    },
+    "text-bison": {
+      "available": false,
+      "error": "404 Publisher Model `publishers/google/models/text-bison` is not found."
+    },
+    "chat-bison@001": {
+      "available": false,
+      "error": "404 Publisher Model `publishers/google/models/chat-bison@001` is not found."
+    },
+    "code-bison@001": {
+      "available": false,
+      "error": "404 Publisher Model `publishers/google/models/code-bison@001` is not found."
+    },
+    "codechat-bison@001": {
+      "available": false,
+      "error": "404 Publisher Model `publishers/google/models/codechat-bison@001` is not found."
+    },
+    "summary": {
+      "working_models": [],
+      "count": 0
+    }
+  },
+  "quotas_billing": {
+    "api_check": "ServiceUsage client not available"
+  }
+}

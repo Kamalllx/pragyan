@@ -1,0 +1,54 @@
+2025-06-22 03:56:35,578 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized successfully
+2025-06-22 03:56:35,579 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 04:10:18,661 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized successfully
+2025-06-22 04:10:18,661 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 04:16:40,772 - sarvam_ai_voice_agent - ERROR - TTS API error: 400 - {"error":{"message":"Validation Error(s):\n- speaker: Input should be 'meera', 'pavithra', 'maitreyi', 'arvind', 'amol', 'amartya', 'diya', 'neel', 'misha', 'vian', 'arjun', 'maya', 'anushka', 'abhilash', 'manisha', 'vidya', 'arya', 'karun' or 'hitesh'\n- inputs.0: String should have at most 500 characters","code":"invalid_request_error","request_id":"20250621_b5d276bb-8ebf-433a-a9f5-9561c82102c3"}}
+2025-06-22 04:20:34,025 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 04:20:34,025 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 04:35:25,681 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 04:35:25,682 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 04:54:27,793 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 04:54:30,982 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 04:54:30,983 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 04:54:31,018 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:11:17,003 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:11:21,120 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:11:21,121 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:11:21,155 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:11:56,609 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:12:03,092 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:12:03,093 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:12:03,128 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:19:23,938 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:19:30,132 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:19:30,133 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:19:30,172 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:26:01,140 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:26:06,120 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:26:06,120 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:26:06,174 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:33:42,337 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:33:46,744 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:33:46,744 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:33:46,795 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:52:58,514 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:53:02,744 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 05:53:02,745 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 05:53:02,779 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 06:35:02,232 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 06:35:06,985 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 06:35:06,986 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 06:35:07,024 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 08:01:51,463 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 08:01:59,765 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 08:01:59,768 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 08:01:59,821 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 15:08:19,128 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 15:08:23,680 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 15:08:23,681 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 15:08:23,722 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 15:33:52,574 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 15:33:59,789 - sarvam_ai_voice_agent - INFO - Sarvam AI Voice Agent initialized with CORRECTED speakers and limits
+2025-06-22 15:33:59,789 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 15:33:59,838 - sarvam_ai_voice_agent - INFO - Vertex AI client linked for script generation
+2025-06-22 15:41:31,440 - sarvam_ai_voice_agent - ERROR - Narrated video creation failed: 'en-IN'

@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-29 01:15:50.493705
+Subject: general
+Topic: Show me how nuclear fusion works with an example
+==================================================
+
+It's powered by a process called nuclear fusion, where tiny atomic nuclei are smashed together under immense pressure and heat to form a heavier nucleus. Imagine two types of hydrogen, called deuterium and tritium. This powerful collision creates a new, heavier element—helium—and releases a spare neutron. The total mass of the helium and neutron is slightly less than the original deuterium and tritium. Scientists in India, as part of the global ITER project, are working to replicate this process on Earth, aiming for a clean and virtually limitless energy source.

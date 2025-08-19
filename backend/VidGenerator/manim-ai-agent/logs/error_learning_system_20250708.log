@@ -1,0 +1,18 @@
+2025-07-08 13:16:32,226 - error_learning_system - INFO - Database initialized successfully
+2025-07-08 13:16:32,228 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-07-08 13:16:32,229 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-07-08 13:16:40,810 - error_learning_system - INFO - Database initialized successfully
+2025-07-08 13:16:40,811 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-07-08 13:16:40,811 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-07-08 13:16:40,817 - error_learning_system - INFO - Database initialized successfully
+2025-07-08 13:16:40,819 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-07-08 13:16:40,820 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-07-08 13:23:52,035 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-07-08 13:24:05,182 - error_learning_system - INFO - Learned from error: generation_failure (occurrence #1)
+2025-07-08 13:24:45,641 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-07-08 13:34:32,660 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-07-08 13:34:32,701 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-07-08 13:34:32,730 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-07-08 13:34:32,757 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-07-08 13:34:32,786 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-07-08 13:34:32,859 - error_learning_system - INFO - Recorded success: quality=97.5, patterns_applied=0

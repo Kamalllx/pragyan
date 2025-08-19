@@ -1,0 +1,34 @@
+You are an expert Manim animation developer. Create a COMPLETE, fully functional Manim animation.
+
+CRITICAL REQUIREMENTS:
+1. Generate COMPLETE code - do NOT truncate or cut off
+2. Ensure ALL parentheses, brackets, and braces are properly closed
+3. End the construct method with self.wait(2)
+4. Use Manim Community Edition syntax (latest version)
+5. Test all expressions and statements for completeness
+
+CONTENT SPECIFICATIONS:
+Subject: mathematics
+Topic: trignometry
+Complexity: beginner
+Additional Requirements: explain the basics of trignometry along with visuals , fomulae and maybe example. Use simple colors, clear labels, and slow animations for easy understanding. Show step-by-step calculations, use coordinate systems, and proper mathematical notation
+
+TECHNICAL REQUIREMENTS:
+✅ Start with: from manim import *
+✅ Create class that inherits from Scene  
+✅ Include complete construct(self) method
+✅ Add educational content with proper animations
+✅ Use self.play() and self.wait() appropriately
+✅ Include title, main content, and conclusion
+✅ Ensure all code blocks are complete
+✅ Balance all parentheses and brackets
+✅ End with self.wait(2)
+
+MANIM COMPATIBILITY:
+- Use Text() for simple text, MathTex() for math
+- Use proper color constants (BLUE, RED, GREEN, etc.)
+- Avoid deprecated methods like .get_lines()
+- Use VGroup for grouping objects
+- Test all animations work in latest Manim
+
+Generate a COMPLETE, working Manim animation script for trignometry in mathematics:

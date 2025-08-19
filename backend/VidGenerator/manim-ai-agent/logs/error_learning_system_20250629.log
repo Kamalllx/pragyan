@@ -1,0 +1,109 @@
+2025-06-29 00:50:35,408 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 00:50:35,410 - error_learning_system - INFO - Loaded 28 error patterns and 0 prevention rules
+2025-06-29 00:50:35,410 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 00:50:45,745 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 00:50:45,746 - error_learning_system - INFO - Loaded 28 error patterns and 0 prevention rules
+2025-06-29 00:50:45,747 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 00:50:45,750 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 00:50:45,751 - error_learning_system - INFO - Loaded 28 error patterns and 0 prevention rules
+2025-06-29 00:50:45,752 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 00:57:52,465 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 01:00:24,780 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 01:00:24,781 - error_learning_system - INFO - Loaded 28 error patterns and 0 prevention rules
+2025-06-29 01:00:24,782 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 01:00:30,245 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 01:00:30,247 - error_learning_system - INFO - Loaded 28 error patterns and 0 prevention rules
+2025-06-29 01:00:30,247 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 01:00:30,249 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 01:00:30,251 - error_learning_system - INFO - Loaded 28 error patterns and 0 prevention rules
+2025-06-29 01:00:30,251 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 01:01:43,719 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 01:08:42,820 - error_learning_system - INFO - Learned from error: syntax_error (occurrence #2)
+2025-06-29 01:08:42,835 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-06-29 01:08:42,850 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-06-29 01:08:42,865 - error_learning_system - INFO - Learned from error: value_error (occurrence #2)
+2025-06-29 01:08:42,906 - error_learning_system - INFO - Recorded success: quality=97.5, patterns_applied=0
+2025-06-29 01:11:31,223 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 01:13:28,958 - error_learning_system - INFO - Learned from error: syntax_error (occurrence #3)
+2025-06-29 01:13:28,981 - error_learning_system - INFO - Recorded success: quality=96.35, patterns_applied=0
+2025-06-29 01:40:50,404 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 01:51:08,421 - error_learning_system - INFO - Learned from error: type_error (occurrence #1)
+2025-06-29 01:51:08,439 - error_learning_system - INFO - Learned from error: attribute_error (occurrence #1)
+2025-06-29 01:51:08,457 - error_learning_system - INFO - Learned from error: attribute_error (occurrence #1)
+2025-06-29 01:51:08,477 - error_learning_system - INFO - Learned from error: unknown (occurrence #1)
+2025-06-29 01:51:08,500 - error_learning_system - INFO - Learned from error: unknown (occurrence #2)
+2025-06-29 01:51:08,521 - error_learning_system - INFO - Learned from error: unknown (occurrence #3)
+2025-06-29 01:51:08,543 - error_learning_system - INFO - Learned from error: unknown (occurrence #4)
+2025-06-29 01:51:08,571 - error_learning_system - INFO - Recorded success: quality=100, patterns_applied=0
+2025-06-29 02:20:11,250 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 02:22:12,803 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:22:12,805 - error_learning_system - INFO - Loaded 34 error patterns and 0 prevention rules
+2025-06-29 02:22:12,806 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:22:20,390 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:22:20,393 - error_learning_system - INFO - Loaded 34 error patterns and 0 prevention rules
+2025-06-29 02:22:20,393 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:22:20,397 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:22:20,398 - error_learning_system - INFO - Loaded 34 error patterns and 0 prevention rules
+2025-06-29 02:22:20,399 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:23:33,775 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 02:24:57,949 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:24:57,950 - error_learning_system - INFO - Loaded 34 error patterns and 0 prevention rules
+2025-06-29 02:24:57,950 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:25:02,888 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:25:02,889 - error_learning_system - INFO - Loaded 34 error patterns and 0 prevention rules
+2025-06-29 02:25:02,890 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:25:02,892 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:25:02,893 - error_learning_system - INFO - Loaded 34 error patterns and 0 prevention rules
+2025-06-29 02:25:02,893 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:25:52,927 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 02:29:39,534 - error_learning_system - INFO - Learned from error: type_error (occurrence #7)
+2025-06-29 02:29:39,562 - error_learning_system - INFO - Learned from error: unknown (occurrence #1)
+2025-06-29 02:29:39,616 - error_learning_system - INFO - Learned from error: attribute_error (occurrence #1)
+2025-06-29 02:29:39,642 - error_learning_system - INFO - Recorded success: quality=100, patterns_applied=0
+2025-06-29 02:37:32,106 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:37:32,109 - error_learning_system - INFO - Loaded 36 error patterns and 0 prevention rules
+2025-06-29 02:37:32,110 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:37:39,684 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:37:39,686 - error_learning_system - INFO - Loaded 36 error patterns and 0 prevention rules
+2025-06-29 02:37:39,686 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:37:39,689 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:37:39,691 - error_learning_system - INFO - Loaded 36 error patterns and 0 prevention rules
+2025-06-29 02:37:39,691 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:38:11,160 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 02:40:14,300 - error_learning_system - INFO - Learned from error: value_error (occurrence #1)
+2025-06-29 02:40:14,379 - error_learning_system - INFO - Recorded success: quality=97.5, patterns_applied=0
+2025-06-29 02:41:12,159 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:41:12,161 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 02:41:12,161 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:41:17,358 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:41:17,360 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 02:41:17,361 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:41:17,363 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:41:17,364 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 02:41:17,365 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:41:42,382 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 02:43:15,184 - error_learning_system - INFO - Recorded success: quality=100, patterns_applied=0
+2025-06-29 02:59:21,803 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:59:21,805 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 02:59:21,805 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:59:28,277 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:59:28,278 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 02:59:28,279 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:59:28,281 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 02:59:28,282 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 02:59:28,282 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 02:59:52,438 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 03:00:21,779 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 03:00:21,781 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 03:00:21,781 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 03:00:28,987 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 03:00:28,989 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 03:00:28,989 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 03:00:28,991 - error_learning_system - INFO - Database initialized successfully
+2025-06-29 03:00:28,992 - error_learning_system - INFO - Loaded 37 error patterns and 0 prevention rules
+2025-06-29 03:00:28,993 - error_learning_system - INFO - Error Learning System initialized successfully
+2025-06-29 03:01:11,522 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 03:02:45,307 - error_learning_system - INFO - Learned from error: name_error (occurrence #4)
+2025-06-29 03:02:45,373 - error_learning_system - INFO - Recorded success: quality=97.5, patterns_applied=0
+2025-06-29 12:15:59,205 - error_learning_system - INFO - Generated prevention context with 0 rules
+2025-06-29 12:17:54,302 - error_learning_system - INFO - Recorded success: quality=100, patterns_applied=0

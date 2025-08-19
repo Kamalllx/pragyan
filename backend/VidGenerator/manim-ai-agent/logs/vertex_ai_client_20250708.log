@@ -1,0 +1,19 @@
+2025-07-08 13:16:32,230 - vertex_ai_client - INFO - 🔧 Initializing AI-POWERED Vertex AI client with Learning...
+2025-07-08 13:16:34,764 - vertex_ai_client - INFO - ✅ Gen AI Client created successfully
+2025-07-08 13:16:34,765 - vertex_ai_client - INFO - 🤖 Using model: gemini-2.5-pro
+2025-07-08 13:16:37,065 - vertex_ai_client - INFO - ✅ Cloud storage ready: warp-ai-hackathon-manim-codes
+2025-07-08 13:16:37,065 - vertex_ai_client - INFO - 🧪 Testing basic generation...
+2025-07-08 13:16:40,804 - vertex_ai_client - INFO - ✅ Test successful: Hello from AI-Powered Manim Generator with Learnin...
+2025-07-08 13:16:40,806 - vertex_ai_client - INFO - ✅ AI-POWERED Vertex AI client with Learning initialized successfully
+2025-07-08 13:16:40,822 - vertex_ai_client - INFO - 🔧 Initializing AI-POWERED Vertex AI client with Learning...
+2025-07-08 13:16:41,516 - vertex_ai_client - INFO - ✅ Gen AI Client created successfully
+2025-07-08 13:16:41,516 - vertex_ai_client - INFO - 🤖 Using model: gemini-2.5-pro
+2025-07-08 13:16:42,527 - vertex_ai_client - INFO - ✅ Cloud storage ready: warp-ai-hackathon-manim-codes
+2025-07-08 13:16:42,528 - vertex_ai_client - INFO - 🧪 Testing basic generation...
+2025-07-08 13:16:47,035 - vertex_ai_client - INFO - ✅ Test successful: Hello from AI-Powered Manim Generator with Learnin...
+2025-07-08 13:16:47,036 - vertex_ai_client - INFO - ✅ AI-POWERED Vertex AI client with Learning initialized successfully
+2025-07-08 13:23:52,004 - vertex_ai_client - INFO - 🚀 Starting enhanced generation for: general - NQuens Algorithm (intermediate)
+2025-07-08 13:24:04,617 - vertex_ai_client - ERROR - LEARNING-ENHANCED generation failed: Server disconnected without sending a response.
+2025-07-08 13:24:45,629 - vertex_ai_client - INFO - 🚀 Starting enhanced generation for: general - NQuens Algorithm (intermediate)
+2025-07-08 13:34:41,793 - vertex_ai_client - INFO - ☁️ Video saved to cloud: generated_videos/general_NQuens_Algorithm_20250708_133432.mp4
+2025-07-08 13:34:41,794 - vertex_ai_client - INFO - ☁️ Code saved to cloud: generated_codes/general_NQuens_Algorithm_20250708_133432.py

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Input - AI Educational Generator</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="breadcrumb">
+                <a href="/">🏠 Home</a> > <span>Manual Input</span>
+            </nav>
+            <h1>📝 Manual Input</h1>
+            <p>Enter any educational content - AI will auto-detect and process it</p>
+        </header>
+
+        <div class="input-section">
+            <form id="manual-form" class="manual-form">
+                <div class="input-group">
+                    <label for="input-text">📚 Enter Topic, Question, or Prompt:</label>
+                    <textarea 
+                        id="input-text" 
+                        name="input_text" 
+                        placeholder="Examples:&#10;• Topic: 'calculus'&#10;• Question: 'Solve x² + 5x + 6 = 0'&#10;• Prompt: 'Explain photosynthesis'"
+                        rows="4"
+                        required
+                    ></textarea>
+                </div>
+
+                <div class="options-row">
+                    <div class="input-group">
+                        <label for="complexity">📊 Complexity Level:</label>
+                        <select id="complexity" name="complexity">
+                            <option value="beginner">🟢 Beginner</option>
+                            <option value="intermediate" selected>🟡 Intermediate</option>
+                            <option value="advanced">🔴 Advanced</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="language">🌍 Voice Language:</label>
+                        <select id="language" name="language">
+                            <option value="english">🇺🇸 English</option>
+                            <option value="hindi">🇮🇳 Hindi</option>
+                            <option value="tamil">🇮🇳 Tamil</option>
+                            <option value="bengali">🇮🇳 Bengali</option>
+                            <option value="gujarati">🇮🇳 Gujarati</option>
+                            <option value="kannada">🇮🇳 Kannada</option>
+                            <option value="malayalam">🇮🇳 Malayalam</option>
+                            <option value="marathi">🇮🇳 Marathi</option>
+                            <option value="punjabi">🇮🇳 Punjabi</option>
+                            <option value="telugu">🇮🇳 Telugu</option>
+                            <option value="odia">🇮🇳 Odia</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="detection-section" id="detection-section" style="display: none;">
+                    <h3>🔍 AI Detection Results</h3>
+                    <div id="detection-results" class="detection-results"></div>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" id="detect-btn" class="btn btn-secondary">
+                        🔍 Detect Type
+                    </button>
+                    <button type="submit" id="generate-btn" class="btn btn-primary">
+                        🚀 Generate Content
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div id="loading-section" class="loading-section" style="display: none;">
+            <div class="loading-spinner"></div>
+            <h3>🤖 AI Processing...</h3>
+            <p id="loading-message">Analyzing your input and generating content...</p>
+            <div class="loading-steps">
+                <div class="step" id="step-1">📝 Analyzing input type</div>
+                <div class="step" id="step-2">🧮 Processing with AI agents</div>
+                <div class="step" id="step-3">🎬 Generating video content</div>
+                <div class="step" id="step-4">🎵 Adding voice narration</div>
+                <div class="step" id="step-5">☁️ Uploading to cloud</div>
+            </div>
+        </div>
+
+        <div id="results-section" class="results-section" style="display: none;">
+            <h2>✅ Generation Complete!</h2>
+            
+            <div class="results-grid">
+                <div class="result-card">
+                    <h3>🎬 Video Content</h3>
+                    <div id="video-content"></div>
+                </div>
+
+                <div class="result-card">
+                    <h3>📚 Educational Documents</h3>
+                    <div id="document-links"></div>
+                </div>
+
+                <div class="result-card">
+                    <h3>📊 Generation Info</h3>
+                    <div id="generation-info"></div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn btn-secondary" onclick="resetForm()">🔄 Generate Another</button>
+                <button class="btn btn-primary" onclick="shareResults()">📤 Share Results</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/manual.js"></script>
+</body>
+</html>

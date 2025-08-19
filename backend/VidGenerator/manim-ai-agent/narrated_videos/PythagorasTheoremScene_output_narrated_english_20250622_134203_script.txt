@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-22 13:42:13.004759
+Subject: mathematics
+Topic: Pythagoras Theorem
+==================================================
+
+The secret lies in a special shape: the right-angled triangle. The third, longest side opposite this angle is called the hypotenuse. He found that if you square the length of the perpendicular and add it to the square of the base, the result is exactly equal to the square of the hypotenuse. Think of a ladder leaning against a wall, or even the diagonal path across a park. So, remember, for any right-angled triangle, this theorem is your key to solving its mysteries.

@@ -1,0 +1,38 @@
+You are an expert Manim v0.19.0 developer. Create a modern, compatible animation.
+
+CRITICAL: Use ONLY modern Manim API. NO deprecated methods.
+
+CONTENT:
+Subject: chemistry
+Topic: rusting of iron  
+Complexity: beginner
+Requirements: . Use simple colors, large clear labels, slow animations for easy understanding, basic concepts only. Use standard chemical notation, proper molecular representations, reaction arrows, electron movements, and chemical principles. Ensure code is execution-ready with proper Manim syntax, complete animations, and no deprecated methods.
+
+MODERN MANIM v0.19.0 REQUIREMENTS:
+✅ Use Text() for all text (simple and reliable)
+✅ Use MathTex() for math (but keep it simple)
+✅ Use basic shapes: Circle, Rectangle, Triangle, Polygon
+✅ Use VGroup for grouping objects
+✅ Use simple animations: Write, Create, FadeIn, FadeOut, Transform
+✅ Use Indicate(object) without color parameter
+✅ Use text_align=ORIGIN (not text_alignment)
+
+FORBIDDEN (cause runtime errors):
+❌ get_part_by_text() - doesn't exist in modern Manim
+❌ get_part_by_tex() - doesn't exist in modern Manim  
+❌ Indicate(obj, color=X) - color parameter not supported
+❌ text_alignment= - use text_align=
+❌ Complex object manipulation methods
+
+SAFE EXAMPLE:
+```
+# ✅ GOOD - Modern API
+text = Text("Hello", font_size=36)
+self.play(Write(text))
+self.play(Indicate(text))  # No color parameter
+
+# ❌ BAD - Deprecated 
+text.get_part_by_text("Hello").set_color(RED)  # Doesn't exist
+```
+
+Generate a SIMPLE, MODERN Manim animation for rusting of iron using ONLY the safe API methods above:

@@ -1,0 +1,127 @@
+2025-06-19 19:52:12,423 - vertex_ai_client - INFO - __init__:41 - Vertex AI client initialized successfully
+2025-06-19 19:52:41,844 - vertex_ai_client - INFO - generate_manim_code:65 - Generating code for physics - projectile motion with gravity (intermediate)
+2025-06-19 19:52:42,275 - vertex_ai_client - ERROR - generate_manim_code:93 - Error during code generation: 404 The Model does not exist.
+2025-06-19 19:52:42,280 - vertex_ai_client - INFO - generate_manim_code:65 - Generating code for physics - projectile motion with gravity (intermediate)
+2025-06-19 19:52:42,553 - vertex_ai_client - ERROR - generate_manim_code:93 - Error during code generation: 404 The Model does not exist.
+2025-06-19 19:52:42,559 - vertex_ai_client - INFO - generate_manim_code:65 - Generating code for physics - projectile motion with gravity (intermediate)
+2025-06-19 19:52:42,770 - vertex_ai_client - ERROR - generate_manim_code:93 - Error during code generation: 404 The Model does not exist.
+2025-06-19 20:11:59,388 - vertex_ai_client - INFO - __init__:23 - 🔧 Starting Vertex AI client initialization...
+2025-06-19 20:11:59,389 - vertex_ai_client - INFO - _debug_environment:84 - 🔍 DEBUG: Environment Variables
+2025-06-19 20:11:59,389 - vertex_ai_client - INFO - _debug_environment:98 -   GOOGLE_CLOUD_PROJECT: warp-ai-hackathon
+2025-06-19 20:11:59,389 - vertex_ai_client - INFO - _debug_environment:96 -   GOOGLE_APPLICATION_CREDENTIALS: EXISTS
+2025-06-19 20:11:59,389 - vertex_ai_client - INFO - _debug_environment:98 -   VERTEX_AI_LOCATION: asia-south1
+2025-06-19 20:11:59,389 - vertex_ai_client - INFO - __init__:31 - 📁 Loading credentials from: gcp-credentials.json
+2025-06-19 20:11:59,535 - vertex_ai_client - INFO - __init__:37 - ✅ Credentials loaded successfully
+2025-06-19 20:11:59,536 - vertex_ai_client - INFO - __init__:42 - 🌍 Project ID: warp-ai-hackathon
+2025-06-19 20:11:59,536 - vertex_ai_client - INFO - __init__:43 - 📍 Location: asia-south1
+2025-06-19 20:11:59,536 - vertex_ai_client - INFO - __init__:51 - ✅ Vertex AI initialized successfully
+2025-06-19 20:11:59,536 - vertex_ai_client - INFO - __init__:69 - 🤖 Primary model: code-bison@002
+2025-06-19 20:11:59,537 - vertex_ai_client - INFO - __init__:70 - ⚙️ Generation config: {'temperature': 0.2, 'max_output_tokens': 2048, 'top_p': 0.8, 'top_k': 40}
+2025-06-19 20:11:59,537 - vertex_ai_client - INFO - _test_model_availability:102 - 🧪 Testing model availability...
+2025-06-19 20:11:59,537 - vertex_ai_client - INFO - _test_model_availability:107 - 🔍 Testing model: projects/warp-ai-hackathon/locations/asia-south1/models/code-bison@002
+2025-06-19 20:12:00,056 - vertex_ai_client - ERROR - _test_model_availability:114 - ❌ Model availability test failed: 404 The Model does not exist.
+2025-06-19 20:12:00,057 - vertex_ai_client - INFO - _test_model_availability:115 - 🔄 Trying alternative model names...
+2025-06-19 20:12:00,057 - vertex_ai_client - INFO - _test_model_availability:120 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/code-bison@001
+2025-06-19 20:12:00,418 - vertex_ai_client - WARNING - _test_model_availability:126 - ❌ Alternative code-bison@001 failed: 404 The Model does not exist.
+2025-06-19 20:12:00,418 - vertex_ai_client - INFO - _test_model_availability:120 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/code-bison
+2025-06-19 20:12:00,809 - vertex_ai_client - WARNING - _test_model_availability:126 - ❌ Alternative code-bison failed: 404 The Model does not exist.
+2025-06-19 20:12:00,809 - vertex_ai_client - INFO - _test_model_availability:120 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/text-bison@001
+2025-06-19 20:12:01,095 - vertex_ai_client - WARNING - _test_model_availability:126 - ❌ Alternative text-bison@001 failed: 404 The Model does not exist.
+2025-06-19 20:12:01,128 - vertex_ai_client - INFO - _test_model_availability:120 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/text-bison
+2025-06-19 20:12:01,395 - vertex_ai_client - WARNING - _test_model_availability:126 - ❌ Alternative text-bison failed: 404 The Model does not exist.
+2025-06-19 20:12:01,397 - vertex_ai_client - ERROR - _test_model_availability:128 - ❌ No working model found!
+2025-06-19 20:12:01,397 - vertex_ai_client - INFO - __init__:75 - ✅ Vertex AI client initialized successfully
+2025-06-19 20:16:58,745 - vertex_ai_client - INFO - __init__:24 - 🔧 Starting Vertex AI client initialization...
+2025-06-19 20:16:58,745 - vertex_ai_client - INFO - _debug_environment:87 - 🔍 DEBUG: Environment Variables
+2025-06-19 20:16:58,746 - vertex_ai_client - INFO - _debug_environment:101 -   GOOGLE_CLOUD_PROJECT: warp-ai-hackathon
+2025-06-19 20:16:58,746 - vertex_ai_client - INFO - _debug_environment:99 -   GOOGLE_APPLICATION_CREDENTIALS: EXISTS
+2025-06-19 20:16:58,746 - vertex_ai_client - INFO - _debug_environment:101 -   VERTEX_AI_LOCATION: asia-south1
+2025-06-19 20:16:58,748 - vertex_ai_client - INFO - __init__:32 - 📁 Loading credentials from: gcp-credentials.json
+2025-06-19 20:16:58,787 - vertex_ai_client - INFO - __init__:38 - ✅ Credentials loaded successfully
+2025-06-19 20:16:58,788 - vertex_ai_client - INFO - __init__:43 - 🌍 Project ID: warp-ai-hackathon
+2025-06-19 20:16:58,788 - vertex_ai_client - INFO - __init__:44 - 📍 Location: asia-south1
+2025-06-19 20:16:58,788 - vertex_ai_client - INFO - __init__:52 - ✅ Vertex AI initialized successfully
+2025-06-19 20:16:58,789 - vertex_ai_client - INFO - __init__:72 - 🤖 Primary model: text-bison@001
+2025-06-19 20:16:58,789 - vertex_ai_client - INFO - __init__:73 - ⚙️ Generation config: {'temperature': 0.2, 'max_output_tokens': 2048, 'top_p': 0.8, 'top_k': 40}
+2025-06-19 20:16:58,789 - vertex_ai_client - INFO - _test_model_availability:105 - 🧪 Testing model availability...
+2025-06-19 20:16:58,789 - vertex_ai_client - INFO - _test_model_availability:110 - 🔍 Testing model: projects/warp-ai-hackathon/locations/asia-south1/models/text-bison@001
+2025-06-19 20:16:58,966 - vertex_ai_client - ERROR - _test_model_availability:117 - ❌ Model availability test failed: 404 The Model does not exist.
+2025-06-19 20:16:58,967 - vertex_ai_client - INFO - _test_model_availability:118 - 🔄 Trying alternative model names...
+2025-06-19 20:16:58,967 - vertex_ai_client - INFO - _test_model_availability:123 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/text-bison
+2025-06-19 20:16:59,277 - vertex_ai_client - WARNING - _test_model_availability:129 - ❌ Alternative text-bison failed: 404 The Model does not exist.
+2025-06-19 20:16:59,277 - vertex_ai_client - INFO - _test_model_availability:123 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/text-bison@002
+2025-06-19 20:16:59,603 - vertex_ai_client - WARNING - _test_model_availability:129 - ❌ Alternative text-bison@002 failed: 404 The Model does not exist.
+2025-06-19 20:16:59,603 - vertex_ai_client - INFO - _test_model_availability:123 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/chat-bison@001
+2025-06-19 20:16:59,877 - vertex_ai_client - WARNING - _test_model_availability:129 - ❌ Alternative chat-bison@001 failed: 404 The Model does not exist.
+2025-06-19 20:16:59,878 - vertex_ai_client - INFO - _test_model_availability:123 - 🧪 Testing alternative: projects/warp-ai-hackathon/locations/asia-south1/models/codechat-bison@001
+2025-06-19 20:17:00,209 - vertex_ai_client - WARNING - _test_model_availability:129 - ❌ Alternative codechat-bison@001 failed: 404 The Model does not exist.
+2025-06-19 20:17:00,210 - vertex_ai_client - ERROR - _test_model_availability:131 - ❌ No working model found!
+2025-06-19 20:17:00,210 - vertex_ai_client - INFO - __init__:78 - ✅ Vertex AI client initialized successfully
+2025-06-19 22:08:21,417 - vertex_ai_client - INFO - __init__:20 - 🔧 Initializing New Google Gen AI SDK...
+2025-06-19 22:08:24,003 - vertex_ai_client - INFO - __init__:37 - ✅ Gen AI Client created successfully
+2025-06-19 22:08:24,004 - vertex_ai_client - INFO - __init__:65 - 🤖 Using model: gemini-2.5-pro
+2025-06-19 22:08:24,004 - vertex_ai_client - INFO - _test_generation:82 - 🧪 Testing basic generation...
+2025-06-19 22:08:47,199 - vertex_ai_client - INFO - _test_generation:105 - ✅ Test generation successful: 
+ instruction. There's no ambiguity, noHello from ...
+2025-06-19 22:08:47,199 - vertex_ai_client - INFO - __init__:70 - ✅ New Gen AI SDK initialized successfully
+2025-06-19 22:09:28,604 - vertex_ai_client - INFO - generate_manim_code:125 - 🚀 Starting code generation with new Gen AI SDK...
+2025-06-19 22:09:28,604 - vertex_ai_client - INFO - generate_manim_code:126 - 📋 Subject: physics
+2025-06-19 22:09:28,604 - vertex_ai_client - INFO - generate_manim_code:127 - 📋 Topic: projectile motion with gravity
+2025-06-19 22:09:28,604 - vertex_ai_client - INFO - generate_manim_code:128 - 📋 Complexity: intermediate
+2025-06-19 22:09:28,604 - vertex_ai_client - INFO - generate_manim_code:132 - 📝 Building prompt...
+2025-06-19 22:09:28,605 - vertex_ai_client - INFO - generate_manim_code:139 - 💾 Prompt saved to: ./debug_output\20250619_220928_physics_projectile_motion_with_gravity_prompt.txt
+2025-06-19 22:09:28,606 - vertex_ai_client - INFO - generate_manim_code:152 - 📡 Making API call to Gemini...
+2025-06-19 22:10:02,406 - vertex_ai_client - INFO - generate_manim_code:162 - ✅ Received 6 response chunks
+2025-06-19 22:10:02,407 - vertex_ai_client - ERROR - generate_manim_code:174 - Error during code generation: sequence item 5: expected str instance, NoneType found
+2025-06-19 22:10:02,408 - vertex_ai_client - INFO - generate_manim_code:125 - 🚀 Starting code generation with new Gen AI SDK...
+2025-06-19 22:10:02,409 - vertex_ai_client - INFO - generate_manim_code:126 - 📋 Subject: physics
+2025-06-19 22:10:02,409 - vertex_ai_client - INFO - generate_manim_code:127 - 📋 Topic: projectile motion with gravity
+2025-06-19 22:10:02,410 - vertex_ai_client - INFO - generate_manim_code:128 - 📋 Complexity: intermediate
+2025-06-19 22:10:02,410 - vertex_ai_client - INFO - generate_manim_code:132 - 📝 Building prompt...
+2025-06-19 22:10:02,416 - vertex_ai_client - INFO - generate_manim_code:139 - 💾 Prompt saved to: ./debug_output\20250619_221002_physics_projectile_motion_with_gravity_prompt.txt
+2025-06-19 22:10:02,416 - vertex_ai_client - INFO - generate_manim_code:152 - 📡 Making API call to Gemini...
+2025-06-19 22:10:26,562 - vertex_ai_client - INFO - generate_manim_code:162 - ✅ Received 8 response chunks
+2025-06-19 22:10:26,563 - vertex_ai_client - INFO - _postprocess_code:235 - 🧹 Post-processing generated code...
+2025-06-19 22:10:26,563 - vertex_ai_client - INFO - _postprocess_code:259 - ✅ Added missing numpy import
+2025-06-19 22:10:26,563 - vertex_ai_client - INFO - _postprocess_code:261 - 🧹 Post-processing complete. Final code length: 1863
+2025-06-19 22:21:10,988 - vertex_ai_client - INFO - __init__:20 - 🔧 Initializing Enhanced Google Gen AI SDK...
+2025-06-19 22:21:13,540 - vertex_ai_client - INFO - __init__:37 - ✅ Gen AI Client created successfully
+2025-06-19 22:21:13,541 - vertex_ai_client - INFO - __init__:68 - 🤖 Using model: gemini-2.5-flash
+2025-06-19 22:21:13,541 - vertex_ai_client - INFO - _test_generation:90 - 🧪 Testing basic generation...
+2025-06-19 22:21:13,541 - vertex_ai_client - INFO - _generate_with_retry:164 - 🤖 Trying gemini-2.5-flash, attempt 1
+2025-06-19 22:21:13,541 - vertex_ai_client - INFO - _wait_for_rate_limit:122 - ⏳ Rate limiting: waiting 2.0 seconds...
+2025-06-19 22:21:16,975 - vertex_ai_client - INFO - _generate_with_retry:176 - ✅ Success with gemini-2.5-flash on attempt 1
+2025-06-19 22:21:16,975 - vertex_ai_client - INFO - _safe_join_chunks:143 - 📊 Valid chunks: 2/2
+2025-06-19 22:21:16,976 - vertex_ai_client - INFO - _test_generation:108 - ✅ Test generation successful: Hello from Enhanced Gemini!...
+2025-06-19 22:21:16,976 - vertex_ai_client - INFO - __init__:78 - ✅ Enhanced Gen AI SDK initialized successfully
+2025-06-19 22:21:30,917 - vertex_ai_client - INFO - __init__:20 - 🔧 Initializing Enhanced Google Gen AI SDK...
+2025-06-19 22:21:33,473 - vertex_ai_client - INFO - __init__:37 - ✅ Gen AI Client created successfully
+2025-06-19 22:21:33,474 - vertex_ai_client - INFO - __init__:68 - 🤖 Using model: gemini-2.5-pro
+2025-06-19 22:21:33,474 - vertex_ai_client - INFO - _test_generation:90 - 🧪 Testing basic generation...
+2025-06-19 22:21:33,475 - vertex_ai_client - INFO - _generate_with_retry:164 - 🤖 Trying gemini-2.5-pro, attempt 1
+2025-06-19 22:21:33,475 - vertex_ai_client - INFO - _wait_for_rate_limit:122 - ⏳ Rate limiting: waiting 2.0 seconds...
+2025-06-19 22:21:41,379 - vertex_ai_client - INFO - _generate_with_retry:176 - ✅ Success with gemini-2.5-pro on attempt 1
+2025-06-19 22:21:41,379 - vertex_ai_client - INFO - _safe_join_chunks:143 - 📊 Valid chunks: 2/2
+2025-06-19 22:21:41,379 - vertex_ai_client - INFO - _test_generation:108 - ✅ Test generation successful: 
+ this back" type of request.
+
+3.  **Formulate the...
+2025-06-19 22:21:41,379 - vertex_ai_client - INFO - __init__:78 - ✅ Enhanced Gen AI SDK initialized successfully
+2025-06-19 22:22:26,388 - vertex_ai_client - INFO - generate_manim_code:207 - 🚀 Starting ENHANCED code generation...
+2025-06-19 22:22:26,388 - vertex_ai_client - INFO - generate_manim_code:208 - 📋 Subject: physics
+2025-06-19 22:22:26,388 - vertex_ai_client - INFO - generate_manim_code:209 - 📋 Topic: projectile motion with gravity
+2025-06-19 22:22:26,388 - vertex_ai_client - INFO - generate_manim_code:210 - 📋 Complexity: intermediate
+2025-06-19 22:22:26,388 - vertex_ai_client - INFO - generate_manim_code:214 - 📝 Building enhanced prompt...
+2025-06-19 22:22:26,389 - vertex_ai_client - INFO - generate_manim_code:221 - 💾 Prompt saved to: ./debug_output\20250619_222226_physics_projectile_motion_with_gravity_prompt.txt
+2025-06-19 22:22:26,390 - vertex_ai_client - INFO - generate_manim_code:241 - 📡 Making API call with enhanced retry logic...
+2025-06-19 22:22:26,392 - vertex_ai_client - INFO - _generate_with_retry:164 - 🤖 Trying gemini-2.5-pro, attempt 1
+2025-06-19 22:23:02,680 - vertex_ai_client - INFO - _generate_with_retry:176 - ✅ Success with gemini-2.5-pro on attempt 1
+2025-06-19 22:23:02,681 - vertex_ai_client - INFO - generate_manim_code:244 - ✅ Received 32 response chunks
+2025-06-19 22:23:02,682 - vertex_ai_client - INFO - _safe_join_chunks:143 - 📊 Valid chunks: 32/32
+2025-06-19 22:23:02,682 - vertex_ai_client - INFO - generate_manim_code:252 - 📏 Generated code length: 7312 characters
+2025-06-19 22:23:02,685 - vertex_ai_client - INFO - generate_manim_code:265 - 💾 Raw code saved to: ./debug_output\20250619_222226_physics_projectile_motion_with_gravity_raw_code.py
+2025-06-19 22:23:02,685 - vertex_ai_client - INFO - _postprocess_code:455 - 🧹 Enhanced post-processing...
+2025-06-19 22:23:02,685 - vertex_ai_client - INFO - _postprocess_code:486 - ✅ Added missing numpy import
+2025-06-19 22:23:02,686 - vertex_ai_client - INFO - _postprocess_code:501 - 🧹 Enhanced post-processing complete. Final code length: 7317
+2025-06-19 22:23:02,694 - vertex_ai_client - INFO - generate_manim_code:296 - 💾 Cleaned code saved to: ./debug_output\20250619_222226_physics_projectile_motion_with_gravity_cleaned_code.py
+2025-06-19 22:23:02,694 - vertex_ai_client - INFO - generate_manim_code:298 - ✅ Enhanced code generation successful!

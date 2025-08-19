@@ -1,0 +1,2 @@
+2025-07-08 13:16:47,087 - enhanced_video_generator - INFO - Enhanced Video Generator initialized
+2025-07-08 13:24:05,311 - enhanced_video_generator - ERROR - Enhanced video generation failed: LEARNING-ENHANCED generation failed: Server disconnected without sending a response.

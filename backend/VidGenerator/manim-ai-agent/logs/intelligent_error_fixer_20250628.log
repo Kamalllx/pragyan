@@ -1,0 +1,11 @@
+2025-06-28 17:03:44,200 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 18:28:10,529 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 18:52:58,085 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 19:00:23,708 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 19:00:29,806 - intelligent_error_fixer - ERROR - AI error fix failed after 1.90s: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2025-06-28 19:10:02,013 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 19:15:43,773 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 19:27:29,519 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 20:17:20,242 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 20:31:11,252 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout
+2025-06-28 20:35:34,193 - intelligent_error_fixer - INFO - Intelligent Error Fixer initialized with 15min timeout

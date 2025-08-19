@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-22 15:06:17.676797
+Subject: physics
+Topic: Projectile motion physics kannada
+==================================================
+
+The path the ball takes through the air is a perfect example of projectile motion. It's any object thrown into space that moves only under the influence of gravity. The secret to its path lies in splitting the motion into two parts. At the same time, vertically, gravity constantly pulls it downwards. When you combine this steady forward motion with the changing vertical motion, you get that beautiful, curved path called a parabola.

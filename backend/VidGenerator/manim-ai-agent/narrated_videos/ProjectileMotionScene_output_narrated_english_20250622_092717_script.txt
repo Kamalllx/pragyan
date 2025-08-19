@@ -1,0 +1,7 @@
+Educational Script - English (Indian)
+Generated: 2025-06-22 09:27:21.387815
+Subject: physics
+Topic: Projectile motion
+==================================================
+
+That's a perfect example of projectile motion! Its journey is a clever mix of two separate motions happening at the same time. But vertically, gravity is always pulling it down. From a javelin throw to water from a fountain, this principle is everywhere.

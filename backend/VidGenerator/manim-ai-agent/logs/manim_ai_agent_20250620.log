@@ -1,0 +1,196 @@
+2025-06-20 12:19:41,042 - manim_ai_agent - INFO - __init__:32 - ManimAIAgent initialized successfully
+2025-06-20 12:19:58,432 - manim_ai_agent - INFO - generate_educational_video:342 - 🚀 === STARTING VIDEO GENERATION ===
+2025-06-20 12:19:58,432 - manim_ai_agent - INFO - generate_educational_video:343 - 🆔 Request ID: 02b5dccf-891d-4688-9674-6dc3b153068f
+2025-06-20 12:19:58,432 - manim_ai_agent - INFO - generate_educational_video:344 - 📋 Subject: mathematics
+2025-06-20 12:19:58,433 - manim_ai_agent - INFO - generate_educational_video:345 - 📋 Topic: trignometry
+2025-06-20 12:19:58,433 - manim_ai_agent - INFO - generate_educational_video:346 - 📋 Complexity: beginner
+2025-06-20 12:19:58,433 - manim_ai_agent - INFO - generate_educational_video:347 - 📋 Requirements: 
+2025-06-20 12:19:58,434 - manim_ai_agent - INFO - generate_educational_video:348 - 📋 Quality: low
+2025-06-20 12:19:58,434 - manim_ai_agent - INFO - generate_educational_video:349 - 💾 Debug directory: ./debug_output/02b5dccf
+2025-06-20 12:19:58,434 - manim_ai_agent - INFO - generate_educational_video:353 - 🔍 STEP 1: Input Validation
+2025-06-20 12:19:58,434 - manim_ai_agent - INFO - generate_educational_video:360 - ✅ Input validation passed
+2025-06-20 12:19:58,435 - manim_ai_agent - INFO - generate_educational_video:363 - 🔍 STEP 2: Topic Preprocessing
+2025-06-20 12:19:58,435 - manim_ai_agent - INFO - generate_educational_video:367 - 📝 Original topic: trignometry
+2025-06-20 12:19:58,435 - manim_ai_agent - INFO - generate_educational_video:368 - 📝 Processed topic: trignometry
+2025-06-20 12:19:58,435 - manim_ai_agent - INFO - generate_educational_video:369 - 📝 Enhanced requirements: . Use simple colors, clear labels, and slow animations for easy understanding. Show step-by-step calculations, use coordinate systems, and proper mathematical notation
+2025-06-20 12:19:58,435 - manim_ai_agent - INFO - generate_educational_video:372 - 🔍 STEP 3: AI Code Generation
+2025-06-20 12:19:58,436 - manim_ai_agent - INFO - generate_educational_video:378 - 🤖 Generation attempt 1/3
+2025-06-20 12:20:35,514 - manim_ai_agent - INFO - generate_educational_video:388 - ✅ Code generation successful on attempt 1
+2025-06-20 12:20:35,515 - manim_ai_agent - INFO - generate_educational_video:389 - 📏 Generated code length: 5436 characters
+2025-06-20 12:20:35,515 - manim_ai_agent - INFO - generate_educational_video:395 - 💾 Generated code saved to: ./debug_output/02b5dccf\generated_code_attempt_1.py
+2025-06-20 12:20:35,515 - manim_ai_agent - INFO - generate_educational_video:421 - 🔍 STEP 4: Code Validation and Execution
+2025-06-20 12:20:35,515 - manim_ai_agent - INFO - generate_educational_video:423 - 📄 Filename: mathematics_trignometry_1220_02b5dccf
+2025-06-20 12:20:35,525 - manim_ai_agent - INFO - generate_educational_video:431 - 🎬 Execution result: FAILED
+2025-06-20 12:20:35,526 - manim_ai_agent - INFO - generate_educational_video:432 - 💬 Execution message: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\mathematics_trignometry_1220_02b5dccf_execution.log'
+2025-06-20 12:20:35,526 - manim_ai_agent - INFO - generate_educational_video:456 - 🔍 STEP 5: Code Fixing and Retry
+2025-06-20 12:20:35,526 - manim_ai_agent - WARNING - generate_educational_video:457 - ⚠️ Initial execution failed: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\mathematics_trignometry_1220_02b5dccf_execution.log'
+2025-06-20 12:20:35,528 - manim_ai_agent - INFO - generate_educational_video:465 - 💾 Fixed code saved to: ./debug_output/02b5dccf\fixed_code.py
+2025-06-20 12:20:35,529 - manim_ai_agent - ERROR - generate_educational_video:493 - ❌ === VIDEO GENERATION FAILED ===
+2025-06-20 12:23:13,004 - manim_ai_agent - INFO - __init__:32 - ManimAIAgent initialized successfully
+2025-06-20 12:23:31,442 - manim_ai_agent - INFO - generate_educational_video:342 - 🚀 === STARTING VIDEO GENERATION ===
+2025-06-20 12:23:31,443 - manim_ai_agent - INFO - generate_educational_video:343 - 🆔 Request ID: 06895782-9903-4037-bff8-bc05978ba055
+2025-06-20 12:23:31,443 - manim_ai_agent - INFO - generate_educational_video:344 - 📋 Subject: physics
+2025-06-20 12:23:31,443 - manim_ai_agent - INFO - generate_educational_video:345 - 📋 Topic: projectile motion
+2025-06-20 12:23:31,444 - manim_ai_agent - INFO - generate_educational_video:346 - 📋 Complexity: beginner
+2025-06-20 12:23:31,444 - manim_ai_agent - INFO - generate_educational_video:347 - 📋 Requirements: 
+2025-06-20 12:23:31,444 - manim_ai_agent - INFO - generate_educational_video:348 - 📋 Quality: low
+2025-06-20 12:23:31,445 - manim_ai_agent - INFO - generate_educational_video:349 - 💾 Debug directory: ./debug_output/06895782
+2025-06-20 12:23:31,445 - manim_ai_agent - INFO - generate_educational_video:353 - 🔍 STEP 1: Input Validation
+2025-06-20 12:23:31,445 - manim_ai_agent - INFO - generate_educational_video:360 - ✅ Input validation passed
+2025-06-20 12:23:31,445 - manim_ai_agent - INFO - generate_educational_video:363 - 🔍 STEP 2: Topic Preprocessing
+2025-06-20 12:23:31,446 - manim_ai_agent - INFO - generate_educational_video:367 - 📝 Original topic: projectile motion
+2025-06-20 12:23:31,446 - manim_ai_agent - INFO - generate_educational_video:368 - 📝 Processed topic: projectile motion with gravity
+2025-06-20 12:23:31,446 - manim_ai_agent - INFO - generate_educational_video:369 - 📝 Enhanced requirements: . Use simple colors, clear labels, and slow animations for easy understanding. Include proper units, vector representations, and physical laws
+2025-06-20 12:23:31,446 - manim_ai_agent - INFO - generate_educational_video:372 - 🔍 STEP 3: AI Code Generation
+2025-06-20 12:23:31,447 - manim_ai_agent - INFO - generate_educational_video:378 - 🤖 Generation attempt 1/3
+2025-06-20 12:24:09,442 - manim_ai_agent - INFO - generate_educational_video:388 - ✅ Code generation successful on attempt 1
+2025-06-20 12:24:09,442 - manim_ai_agent - INFO - generate_educational_video:389 - 📏 Generated code length: 642 characters
+2025-06-20 12:24:09,443 - manim_ai_agent - INFO - generate_educational_video:395 - 💾 Generated code saved to: ./debug_output/06895782\generated_code_attempt_1.py
+2025-06-20 12:24:09,443 - manim_ai_agent - INFO - generate_educational_video:421 - 🔍 STEP 4: Code Validation and Execution
+2025-06-20 12:24:09,444 - manim_ai_agent - INFO - generate_educational_video:423 - 📄 Filename: physics_projectile_motion_1224_06895782
+2025-06-20 12:24:09,448 - manim_ai_agent - INFO - generate_educational_video:431 - 🎬 Execution result: FAILED
+2025-06-20 12:24:09,449 - manim_ai_agent - INFO - generate_educational_video:432 - 💬 Execution message: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1224_06895782_execution.log'
+2025-06-20 12:24:09,449 - manim_ai_agent - INFO - generate_educational_video:456 - 🔍 STEP 5: Code Fixing and Retry
+2025-06-20 12:24:09,449 - manim_ai_agent - WARNING - generate_educational_video:457 - ⚠️ Initial execution failed: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1224_06895782_execution.log'
+2025-06-20 12:24:09,452 - manim_ai_agent - INFO - generate_educational_video:465 - 💾 Fixed code saved to: ./debug_output/06895782\fixed_code.py
+2025-06-20 12:24:09,452 - manim_ai_agent - ERROR - generate_educational_video:493 - ❌ === VIDEO GENERATION FAILED ===
+2025-06-20 12:25:18,305 - manim_ai_agent - INFO - __init__:32 - ManimAIAgent initialized successfully
+2025-06-20 12:25:37,324 - manim_ai_agent - INFO - generate_educational_video:342 - 🚀 === STARTING VIDEO GENERATION ===
+2025-06-20 12:25:37,324 - manim_ai_agent - INFO - generate_educational_video:343 - 🆔 Request ID: 503b776c-1a0f-49aa-b997-6f6db264088c
+2025-06-20 12:25:37,325 - manim_ai_agent - INFO - generate_educational_video:344 - 📋 Subject: physics
+2025-06-20 12:25:37,325 - manim_ai_agent - INFO - generate_educational_video:345 - 📋 Topic: projectile motion
+2025-06-20 12:25:37,325 - manim_ai_agent - INFO - generate_educational_video:346 - 📋 Complexity: beginner
+2025-06-20 12:25:37,326 - manim_ai_agent - INFO - generate_educational_video:347 - 📋 Requirements: 
+2025-06-20 12:25:37,326 - manim_ai_agent - INFO - generate_educational_video:348 - 📋 Quality: low
+2025-06-20 12:25:37,326 - manim_ai_agent - INFO - generate_educational_video:349 - 💾 Debug directory: ./debug_output/503b776c
+2025-06-20 12:25:37,326 - manim_ai_agent - INFO - generate_educational_video:353 - 🔍 STEP 1: Input Validation
+2025-06-20 12:25:37,327 - manim_ai_agent - INFO - generate_educational_video:360 - ✅ Input validation passed
+2025-06-20 12:25:37,327 - manim_ai_agent - INFO - generate_educational_video:363 - 🔍 STEP 2: Topic Preprocessing
+2025-06-20 12:25:37,327 - manim_ai_agent - INFO - generate_educational_video:367 - 📝 Original topic: projectile motion
+2025-06-20 12:25:37,327 - manim_ai_agent - INFO - generate_educational_video:368 - 📝 Processed topic: projectile motion with gravity
+2025-06-20 12:25:37,327 - manim_ai_agent - INFO - generate_educational_video:369 - 📝 Enhanced requirements: . Use simple colors, clear labels, and slow animations for easy understanding. Include proper units, vector representations, and physical laws
+2025-06-20 12:25:37,328 - manim_ai_agent - INFO - generate_educational_video:372 - 🔍 STEP 3: AI Code Generation
+2025-06-20 12:25:37,328 - manim_ai_agent - INFO - generate_educational_video:378 - 🤖 Generation attempt 1/3
+2025-06-20 12:26:15,962 - manim_ai_agent - INFO - generate_educational_video:388 - ✅ Code generation successful on attempt 1
+2025-06-20 12:26:15,967 - manim_ai_agent - INFO - generate_educational_video:389 - 📏 Generated code length: 3139 characters
+2025-06-20 12:26:15,969 - manim_ai_agent - INFO - generate_educational_video:395 - 💾 Generated code saved to: ./debug_output/503b776c\generated_code_attempt_1.py
+2025-06-20 12:26:15,969 - manim_ai_agent - INFO - generate_educational_video:421 - 🔍 STEP 4: Code Validation and Execution
+2025-06-20 12:26:15,970 - manim_ai_agent - INFO - generate_educational_video:423 - 📄 Filename: physics_projectile_motion_1226_503b776c
+2025-06-20 12:26:15,983 - manim_ai_agent - INFO - generate_educational_video:431 - 🎬 Execution result: FAILED
+2025-06-20 12:26:15,984 - manim_ai_agent - INFO - generate_educational_video:432 - 💬 Execution message: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1226_503b776c_execution.log'
+2025-06-20 12:26:15,984 - manim_ai_agent - INFO - generate_educational_video:456 - 🔍 STEP 5: Code Fixing and Retry
+2025-06-20 12:26:15,984 - manim_ai_agent - WARNING - generate_educational_video:457 - ⚠️ Initial execution failed: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1226_503b776c_execution.log'
+2025-06-20 12:26:15,985 - manim_ai_agent - INFO - generate_educational_video:465 - 💾 Fixed code saved to: ./debug_output/503b776c\fixed_code.py
+2025-06-20 12:26:15,995 - manim_ai_agent - ERROR - generate_educational_video:493 - ❌ === VIDEO GENERATION FAILED ===
+2025-06-20 12:28:37,956 - manim_ai_agent - INFO - __init__:32 - ManimAIAgent initialized successfully
+2025-06-20 12:28:57,187 - manim_ai_agent - INFO - generate_educational_video:342 - 🚀 === STARTING VIDEO GENERATION ===
+2025-06-20 12:28:57,188 - manim_ai_agent - INFO - generate_educational_video:343 - 🆔 Request ID: 256cc285-08b8-4ca0-8609-34530b9a7a32
+2025-06-20 12:28:57,188 - manim_ai_agent - INFO - generate_educational_video:344 - 📋 Subject: physics
+2025-06-20 12:28:57,188 - manim_ai_agent - INFO - generate_educational_video:345 - 📋 Topic: projectile motion
+2025-06-20 12:28:57,189 - manim_ai_agent - INFO - generate_educational_video:346 - 📋 Complexity: beginner
+2025-06-20 12:28:57,189 - manim_ai_agent - INFO - generate_educational_video:347 - 📋 Requirements: 
+2025-06-20 12:28:57,189 - manim_ai_agent - INFO - generate_educational_video:348 - 📋 Quality: low
+2025-06-20 12:28:57,190 - manim_ai_agent - INFO - generate_educational_video:349 - 💾 Debug directory: ./debug_output/256cc285
+2025-06-20 12:28:57,190 - manim_ai_agent - INFO - generate_educational_video:353 - 🔍 STEP 1: Input Validation
+2025-06-20 12:28:57,190 - manim_ai_agent - INFO - generate_educational_video:360 - ✅ Input validation passed
+2025-06-20 12:28:57,190 - manim_ai_agent - INFO - generate_educational_video:363 - 🔍 STEP 2: Topic Preprocessing
+2025-06-20 12:28:57,190 - manim_ai_agent - INFO - generate_educational_video:367 - 📝 Original topic: projectile motion
+2025-06-20 12:28:57,190 - manim_ai_agent - INFO - generate_educational_video:368 - 📝 Processed topic: projectile motion with gravity
+2025-06-20 12:28:57,190 - manim_ai_agent - INFO - generate_educational_video:369 - 📝 Enhanced requirements: . Use simple colors, clear labels, and slow animations for easy understanding. Include proper units, vector representations, and physical laws
+2025-06-20 12:28:57,191 - manim_ai_agent - INFO - generate_educational_video:372 - 🔍 STEP 3: AI Code Generation
+2025-06-20 12:28:57,191 - manim_ai_agent - INFO - generate_educational_video:378 - 🤖 Generation attempt 1/3
+2025-06-20 12:29:34,217 - manim_ai_agent - INFO - generate_educational_video:388 - ✅ Code generation successful on attempt 1
+2025-06-20 12:29:34,217 - manim_ai_agent - INFO - generate_educational_video:389 - 📏 Generated code length: 3431 characters
+2025-06-20 12:29:34,218 - manim_ai_agent - INFO - generate_educational_video:395 - 💾 Generated code saved to: ./debug_output/256cc285\generated_code_attempt_1.py
+2025-06-20 12:29:34,218 - manim_ai_agent - INFO - generate_educational_video:421 - 🔍 STEP 4: Code Validation and Execution
+2025-06-20 12:29:34,218 - manim_ai_agent - INFO - generate_educational_video:423 - 📄 Filename: physics_projectile_motion_1229_256cc285
+2025-06-20 12:29:34,224 - manim_ai_agent - INFO - generate_educational_video:431 - 🎬 Execution result: FAILED
+2025-06-20 12:29:34,224 - manim_ai_agent - INFO - generate_educational_video:432 - 💬 Execution message: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1229_256cc285_execution.log'
+2025-06-20 12:29:34,224 - manim_ai_agent - INFO - generate_educational_video:456 - 🔍 STEP 5: Code Fixing and Retry
+2025-06-20 12:29:34,225 - manim_ai_agent - WARNING - generate_educational_video:457 - ⚠️ Initial execution failed: Execution error: [Errno 2] No such file or directory: 'output\\execution_logs\\physics_projectile_motion_1229_256cc285_execution.log'
+2025-06-20 12:29:34,225 - manim_ai_agent - INFO - generate_educational_video:465 - 💾 Fixed code saved to: ./debug_output/256cc285\fixed_code.py
+2025-06-20 12:29:34,225 - manim_ai_agent - ERROR - generate_educational_video:493 - ❌ === VIDEO GENERATION FAILED ===
+2025-06-20 12:54:13,373 - manim_ai_agent - INFO - __init__:33 - ManimAIAgent initialized successfully
+2025-06-20 12:59:05,373 - manim_ai_agent - INFO - __init__:33 - ManimAIAgent initialized successfully
+2025-06-20 12:59:24,386 - manim_ai_agent - INFO - __init__:33 - ManimAIAgent initialized successfully
+2025-06-20 12:59:36,184 - manim_ai_agent - INFO - generate_educational_code:64 - Starting code generation request 92971e75-f9c3-4b9c-83c7-6a3b836ebca4
+2025-06-20 12:59:36,184 - manim_ai_agent - INFO - generate_educational_code:65 - Parameters: subject=physics, topic=projectile motion, complexity=beginner
+2025-06-20 12:59:36,186 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 1/3
+2025-06-20 13:00:17,343 - manim_ai_agent - INFO - generate_educational_code:105 - Code generation successful
+2025-06-20 13:09:31,952 - manim_ai_agent - INFO - __init__:33 - ManimAIAgent initialized successfully
+2025-06-20 13:10:00,133 - manim_ai_agent - INFO - generate_educational_code:64 - Starting code generation request af6a9010-ce76-4919-b4fb-15146ec69150
+2025-06-20 13:10:00,135 - manim_ai_agent - INFO - generate_educational_code:65 - Parameters: subject=physics, topic=projectile motion, complexity=beginner
+2025-06-20 13:10:00,136 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 1/3
+2025-06-20 13:10:39,956 - manim_ai_agent - INFO - generate_educational_code:105 - Code generation successful
+2025-06-20 13:16:23,355 - manim_ai_agent - INFO - generate_educational_code:64 - Starting code generation request d4bbc8cd-50f4-4f38-83b4-377c2e0dc00a
+2025-06-20 13:16:23,356 - manim_ai_agent - INFO - generate_educational_code:65 - Parameters: subject=mathematics, topic=trignometry, complexity=beginner
+2025-06-20 13:16:23,358 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 1/3
+2025-06-20 13:18:11,890 - manim_ai_agent - INFO - generate_educational_code:105 - Code generation successful
+2025-06-20 13:36:34,574 - manim_ai_agent - INFO - __init__:33 - ManimAIAgent initialized successfully
+2025-06-20 13:36:46,893 - manim_ai_agent - INFO - generate_educational_code:64 - Starting code generation request c3139569-4924-4550-9713-3a2bbd51f3f3
+2025-06-20 13:36:46,893 - manim_ai_agent - INFO - generate_educational_code:65 - Parameters: subject=mathematics, topic=trignometry, complexity=beginner
+2025-06-20 13:36:46,895 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 1/3
+2025-06-20 13:36:46,895 - manim_ai_agent - WARNING - generate_educational_code:110 - Code generation attempt 1 failed: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:36:46,895 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 2/3
+2025-06-20 13:36:46,895 - manim_ai_agent - WARNING - generate_educational_code:110 - Code generation attempt 2 failed: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:36:46,895 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 3/3
+2025-06-20 13:36:46,895 - manim_ai_agent - WARNING - generate_educational_code:110 - Code generation attempt 3 failed: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:36:46,895 - manim_ai_agent - ERROR - generate_educational_code:148 - Agent error in request c3139569-4924-4550-9713-3a2bbd51f3f3: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:42:20,088 - manim_ai_agent - INFO - __init__:33 - ManimAIAgent initialized successfully
+2025-06-20 13:42:28,119 - manim_ai_agent - INFO - generate_educational_code:64 - Starting code generation request 67a19810-0227-41df-99bb-87499f609089
+2025-06-20 13:42:28,119 - manim_ai_agent - INFO - generate_educational_code:65 - Parameters: subject=mathematics, topic=trignometry, complexity=beginner
+2025-06-20 13:42:28,121 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 1/3
+2025-06-20 13:42:28,122 - manim_ai_agent - WARNING - generate_educational_code:110 - Code generation attempt 1 failed: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:42:28,122 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 2/3
+2025-06-20 13:42:28,122 - manim_ai_agent - WARNING - generate_educational_code:110 - Code generation attempt 2 failed: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:42:28,123 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 3/3
+2025-06-20 13:42:28,123 - manim_ai_agent - WARNING - generate_educational_code:110 - Code generation attempt 3 failed: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:42:28,123 - manim_ai_agent - ERROR - generate_educational_code:148 - Agent error in request 67a19810-0227-41df-99bb-87499f609089: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 13:54:00,913 - manim_ai_agent - INFO - __init__:33 - ManimAIAgent initialized successfully
+2025-06-20 13:54:17,786 - manim_ai_agent - INFO - generate_educational_code:64 - Starting code generation request bcd76d1b-ce88-4a6e-9a03-8e0ffa37f40e
+2025-06-20 13:54:17,787 - manim_ai_agent - INFO - generate_educational_code:65 - Parameters: subject=mathematics, topic=trignometry, complexity=beginner
+2025-06-20 13:54:17,788 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 1/3
+2025-06-20 13:55:12,401 - manim_ai_agent - INFO - generate_educational_code:105 - Code generation successful
+2025-06-20 13:56:45,111 - manim_ai_agent - INFO - generate_educational_code:64 - Starting code generation request 0ea779f3-d5ad-4469-a0eb-d4be189f9282
+2025-06-20 13:56:45,112 - manim_ai_agent - INFO - generate_educational_code:65 - Parameters: subject=chemistry, topic=rusting of iron, complexity=beginner
+2025-06-20 13:56:45,114 - manim_ai_agent - INFO - generate_educational_code:93 - Code generation attempt 1/3
+2025-06-20 13:57:43,423 - manim_ai_agent - INFO - generate_educational_code:105 - Code generation successful
+2025-06-20 14:38:33,452 - manim_ai_agent - INFO - __init__:24 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 14:39:30,837 - manim_ai_agent - INFO - generate_educational_code:45 - Starting enhanced generation with execution: mathematics - trignometry
+2025-06-20 14:39:30,838 - manim_ai_agent - ERROR - generate_educational_code:86 - Enhanced generation error: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 14:42:55,158 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 14:43:10,674 - manim_ai_agent - INFO - generate_educational_code:65 - Starting enhanced generation with execution: mathematics - trignometry
+2025-06-20 14:43:10,674 - manim_ai_agent - INFO - generate_educational_code:66 - Request ID: ce910897-ee8d-41f7-b107-bce4d38fa1e9
+2025-06-20 14:43:10,677 - manim_ai_agent - ERROR - generate_educational_code:126 - Enhanced generation error: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 14:44:34,504 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 14:44:43,806 - manim_ai_agent - INFO - generate_educational_code:65 - Starting enhanced generation with execution: mathematics - trignometry
+2025-06-20 14:44:43,806 - manim_ai_agent - INFO - generate_educational_code:66 - Request ID: c82b0127-6fa9-4b03-9443-74fb8b1e1f92
+2025-06-20 14:47:09,971 - manim_ai_agent - ERROR - generate_educational_code:126 - Enhanced generation error: Real-execution code generation failed: 'NoneType' object has no attribute 'lower'
+2025-06-20 14:57:45,802 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 14:57:53,940 - manim_ai_agent - INFO - generate_educational_code:65 - Starting enhanced generation with execution: mathematics - trignometry
+2025-06-20 14:57:53,940 - manim_ai_agent - INFO - generate_educational_code:66 - Request ID: 0b46e44f-4b37-4416-9a16-34d20df16884
+2025-06-20 14:57:53,942 - manim_ai_agent - ERROR - generate_educational_code:126 - Enhanced generation error: 'VertexAIClient' object has no attribute 'generate_code'
+2025-06-20 14:59:01,455 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 15:01:18,504 - manim_ai_agent - INFO - generate_educational_code:65 - Starting enhanced generation with execution: mathematics - trignometry
+2025-06-20 15:01:18,504 - manim_ai_agent - INFO - generate_educational_code:66 - Request ID: a4e0e816-3cbf-4e2b-ba1b-e82935f8805e
+2025-06-20 15:13:20,353 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 15:14:10,754 - manim_ai_agent - INFO - generate_educational_code:65 - Starting enhanced generation with execution: chemistry - rusting of iron
+2025-06-20 15:14:10,754 - manim_ai_agent - INFO - generate_educational_code:66 - Request ID: 6958186c-0f60-4cde-b663-110d61f0e8f1
+2025-06-20 15:17:30,408 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 15:17:52,000 - manim_ai_agent - INFO - generate_educational_code:65 - Starting enhanced generation with execution: mathematics - trignometry
+2025-06-20 15:17:52,000 - manim_ai_agent - INFO - generate_educational_code:66 - Request ID: e8f150cd-b780-4d19-9d6a-e9e2705358df
+2025-06-20 15:48:36,215 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 15:48:49,510 - manim_ai_agent - INFO - generate_educational_code:65 - Starting enhanced generation with execution: mathematics - trignometry
+2025-06-20 15:48:49,510 - manim_ai_agent - INFO - generate_educational_code:66 - Request ID: 83da4fb6-0698-416e-97f8-123591734f1d
+2025-06-20 15:48:49,510 - manim_ai_agent - ERROR - generate_educational_code:126 - Enhanced generation error: 'VertexAIClient' object has no attribute 'generate_manim_code'
+2025-06-20 16:02:50,960 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 16:03:44,060 - manim_ai_agent - INFO - generate_educational_code:66 - Starting AI-powered generation with execution: mathematics - trignometry
+2025-06-20 16:03:44,060 - manim_ai_agent - INFO - generate_educational_code:67 - Request ID: 4b614e25-c329-4dbc-8751-8f8c65b9baec
+2025-06-20 16:25:09,649 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 16:25:26,429 - manim_ai_agent - INFO - generate_educational_code:66 - Starting AI-powered generation with execution: mathematics - trignometry
+2025-06-20 16:25:26,430 - manim_ai_agent - INFO - generate_educational_code:67 - Request ID: a111189f-abfb-4c40-b608-af8a4cc1fde0
+2025-06-20 16:34:38,892 - manim_ai_agent - INFO - generate_educational_code:66 - Starting AI-powered generation with execution: physics - friction
+2025-06-20 16:34:38,892 - manim_ai_agent - INFO - generate_educational_code:67 - Request ID: e0069992-f5d3-4921-94e1-cdcd05563328
+2025-06-20 16:38:12,452 - manim_ai_agent - INFO - __init__:32 - Enhanced ManimAIAgent initialized successfully
+2025-06-20 16:39:10,244 - manim_ai_agent - INFO - generate_educational_code:66 - Starting AI-powered generation with execution: physics - friction
+2025-06-20 16:39:10,244 - manim_ai_agent - INFO - generate_educational_code:67 - Request ID: ed200d20-b4ee-41dd-81cc-1d002f43e937

@@ -1,0 +1,11 @@
+{
+  "syntax_valid": false,
+  "is_complete": false,
+  "manim_compatible": true,
+  "has_scene_class": true,
+  "has_construct": true,
+  "warnings": [],
+  "issues": [
+    "Syntax error: invalid syntax (<unknown>, line 1)"
+  ]
+}
