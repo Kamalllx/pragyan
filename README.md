@@ -1,7 +1,7 @@
 # Backend
 
 ```bash
-cd backend
+cd backend\VidGenerator\manim-ai-agent
 uvicorn app:app --reload
 ```
 
