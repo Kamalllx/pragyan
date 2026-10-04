@@ -1,0 +1,10 @@
+.env
+backend/.venv/
+**/__pycache__/
+node_modules/
+web/.next/
+motion/.cache/
+motion/out/
+storage/
+models/
+*.log
