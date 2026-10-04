@@ -1,0 +1,29 @@
+# Always-on craft rules. Distilled from steering_probable/ — the parts that generalise:
+# "the AI is the creative director operating the renderer", storyboard first,
+# physically-motivated motion, depth, and a render -> inspect -> fix loop.
+id: core-craft
+name: Pragyan core craft
+kind: core
+priority: 100
+description: Global creative-direction rules applied to every Pragyan video.
+settings:
+  background: shader
+  captions: true
+narration:
+  rules:
+    - Narration explains; the screen shows structure. Never read on-screen text verbatim.
+    - Write for the ear - short sentences, one idea each, concrete words.
+    - Each on-screen item gets exactly one narration line that introduces it.
+    - Spell out symbols as they are spoken ("x squared", "pi", "approximately").
+rules:
+  do:
+    - Act as a creative director - storyboard the whole arc before designing any scene.
+    - Open with a hook in the first five seconds - a question, a surprise or a stake.
+    - One idea per scene; keep on-screen text tiny (titles under 8 words, items under 6).
+    - Vary the visual vocabulary - never use the same visual type twice in a row.
+    - Prefer showing relationships (diagram, comparison, equation flow) over lists.
+    - End by answering the hook - the summary should close the loop it opened.
+  dont:
+    - Don't pad with generic filler ("In today's video...", "Let's dive in").
+    - Don't put paragraphs on screen.
+    - Don't invent statistics - if a number isn't known, show a relationship instead.

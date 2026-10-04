@@ -1,0 +1,35 @@
+id: document-digest
+name: Document digest
+kind: pack
+priority: 35
+description: Turn a document, paper, report or notes into a clear summary video with key points, figures and a takeaway.
+match:
+  intents: [summarize_document, revision_notes]
+  domains: [general, business_product, economics_finance, history, language_arts]
+  keywords: [summarize, summary, paper, report, document, notes, pdf, chapter, article, tldr]
+settings:
+  theme: paper
+  background: aurora
+  target_seconds: 75
+  quiz: false
+  manim: avoid
+arc:
+  - "hook: title - what this document is and why it matters"
+  - "big idea: quote or kinetic - the central claim"
+  - "key points: bullets - three to five points"
+  - "evidence: stats or chart - the strongest numbers (only real ones)"
+  - "structure: diagram or timeline - how the pieces connect"
+  - "so what: cards3d - implications"
+  - "recap: summary"
+visuals:
+  prefer: [bullets, stats, timeline, quote, diagram, cards3d]
+  avoid: [manim, code]
+narration:
+  tone: editorial, clear and neutral, like a good briefing
+  rules:
+    - Attribute claims to the document ("the report argues...").
+rules:
+  do:
+    - Use only facts present in the supplied material.
+  dont:
+    - Don't add outside facts or opinions.

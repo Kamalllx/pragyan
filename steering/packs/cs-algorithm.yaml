@@ -1,0 +1,36 @@
+id: cs-algorithm
+name: Algorithm & code walkthrough
+kind: pack
+priority: 40
+description: Explain an algorithm, data structure or piece of code - intuition, trace, code, complexity.
+match:
+  intents: [code_walkthrough, explain_concept, how_to]
+  domains: [computer_science]
+  keywords: [algorithm, code, function, sort, search, tree, graph, complexity, big o, recursion, python, javascript, api, database]
+settings:
+  theme: neon
+  background: particles
+  target_seconds: 85
+  quiz: true
+  manim: allow
+arc:
+  - "hook: kinetic - the problem the algorithm solves"
+  - "idea: definition - the core trick with an analogy"
+  - "flow: diagram - the data or control flow"
+  - "trace: steps - run it by hand on a tiny example"
+  - "code: code - the minimal implementation, highlight the key line"
+  - "cost: chart or stats - complexity and performance"
+  - "recap: summary"
+  - "check: quiz"
+visuals:
+  prefer: [code, diagram, steps, chart, comparison]
+  avoid: [quote, orbit3d]
+narration:
+  tone: crisp senior engineer explaining to a smart junior
+  rules:
+    - Trace with concrete values, never "some value".
+rules:
+  do:
+    - Keep code under 14 lines; highlight the single most important line.
+  dont:
+    - Don't show boilerplate imports unless they matter.

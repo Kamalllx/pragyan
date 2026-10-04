@@ -1,0 +1,38 @@
+id: concept-explainer
+name: Concept explainer (science)
+kind: pack
+priority: 40
+description: Explain a scientific or technical concept from intuition to formal understanding, with analogy, mechanism and real-world grounding.
+match:
+  intents: [explain_concept]
+  domains: [physics, chemistry, biology, engineering, geography, general]
+  keywords: [why, how does, explain, what is, concept, works, happens]
+settings:
+  theme: cosmos
+  background: shader
+  target_seconds: 80
+  quiz: true
+  manim: allow
+arc:
+  - "hook: title - the puzzling question"
+  - "intuition: kinetic - the one-sentence gut feeling"
+  - "definition: definition - name the idea, with an analogy"
+  - "mechanism: diagram - how it actually works, cause to effect"
+  - "formal: equation or manim - the law or graph behind it (only if real)"
+  - "contrast: comparison - a common misconception vs the truth"
+  - "real world: cards3d - where you meet this every day"
+  - "recap: summary - answer the hook"
+  - "check: quiz - one question"
+visuals:
+  prefer: [diagram, definition, comparison, equation, manim, cards3d]
+  avoid: [code]
+narration:
+  tone: curious, warm and precise, like a great science communicator
+  rules:
+    - Build from the familiar to the abstract.
+    - Use one strong analogy and come back to it.
+rules:
+  do:
+    - Show cause and effect explicitly with arrows and flow.
+  dont:
+    - Don't introduce more than three new terms.

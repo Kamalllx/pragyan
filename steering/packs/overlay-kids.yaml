@@ -1,0 +1,22 @@
+id: overlay-kids
+name: Overlay - young learners
+kind: overlay
+priority: 20
+description: Adapt any video for children - simple words, playful analogies, slower pace, bright theme.
+match:
+  audiences: [kid]
+  keywords: [kid, kids, child, children, class 5, class 6, simple words, for my son, for my daughter, eli5]
+settings:
+  theme: solar
+  speed: 0.92
+  quiz: true
+narration:
+  tone: playful, warm and encouraging, like a favourite teacher
+  rules:
+    - Use words a ten-year-old knows; explain any new word immediately.
+    - Use everyday analogies (toys, food, playground).
+rules:
+  do:
+    - Ask the viewer a question every few scenes.
+  dont:
+    - Don't use equations unless they are tiny and explained word by word.

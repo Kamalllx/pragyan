@@ -1,0 +1,33 @@
+id: how-to
+name: How-to tutorial
+kind: pack
+priority: 30
+description: Practical tutorial that teaches how to do something step by step, with tips and pitfalls.
+match:
+  intents: [how_to]
+  keywords: [how to, steps, guide, tutorial, setup, install, make, build, learn]
+settings:
+  theme: cosmos
+  background: shader
+  target_seconds: 70
+  quiz: false
+  manim: avoid
+arc:
+  - "hook: title - the outcome you will get"
+  - "you need: bullets - prerequisites"
+  - "do it: steps - the procedure"
+  - "under the hood: diagram - why it works (optional)"
+  - "pitfalls: comparison - wrong way vs right way"
+  - "recap: summary"
+visuals:
+  prefer: [steps, bullets, comparison, code, diagram]
+  avoid: [orbit3d, quote]
+narration:
+  tone: friendly expert, practical
+  rules:
+    - Use imperative verbs ("open", "set", "run").
+rules:
+  do:
+    - Make every step actionable.
+  dont:
+    - Don't bury the key step in the middle of a list.

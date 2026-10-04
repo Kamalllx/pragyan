@@ -1,0 +1,40 @@
+id: math-solver
+name: Problem solver (maths & physics)
+kind: pack
+priority: 45
+description: Worked, verified step-by-step solution of a maths, physics or engineering problem, explaining why each step is valid.
+match:
+  intents: [solve_problem]
+  domains: [mathematics, physics, engineering, chemistry, economics_finance]
+  keywords: [solve, find, calculate, evaluate, integral, derivative, prove, simplify, equation, compute, probability, limit]
+settings:
+  theme: chalk
+  background: grid
+  voice: am_michael
+  speed: 0.96
+  target_seconds: 90
+  quiz: true
+  manim: prefer
+arc:
+  - "hook: title - the problem as a question"
+  - "givens: bullets - what we know and what we must find"
+  - "strategy: definition or kinetic - the key idea that unlocks it"
+  - "solve: steps - each step with its reason (latex on each step)"
+  - "see it: manim - graph or geometry that makes the answer visible (if meaningful)"
+  - "check: equation - substitute back or sanity check"
+  - "recap: summary - the method, not just the answer"
+  - "practice: quiz - a similar mini problem"
+visuals:
+  prefer: [steps, equation, manim, definition, bullets]
+  avoid: [orbit3d, cards3d, quote, timeline, stats, chart]
+narration:
+  tone: patient tutor - calm, precise, encouraging
+  rules:
+    - Say WHY each step is allowed before saying what it does.
+    - Read maths naturally ("x squared over two", not symbols).
+rules:
+  do:
+    - Use the verified final answer exactly.
+    - Keep each step's LaTeX short - one transformation per step.
+  dont:
+    - Don't skip algebra a student would get stuck on.

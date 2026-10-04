@@ -1,0 +1,37 @@
+id: history-story
+name: History & story
+kind: pack
+priority: 30
+description: Narrative explainer of historical events, biographies, discoveries or stories, told chronologically with stakes.
+match:
+  intents: [story_history]
+  domains: [history, geography, language_arts, general]
+  keywords: [history, war, empire, revolution, discovery, biography, story, who was, when did, ancient]
+settings:
+  theme: solar
+  background: particles
+  voice: bm_george
+  target_seconds: 85
+  quiz: true
+  manim: avoid
+arc:
+  - "hook: title - the moment everything changed"
+  - "context: definition or bullets - the world before"
+  - "events: timeline - the chain of events"
+  - "voices: quote - a real quote (only if well-known)"
+  - "why it happened: diagram - causes to consequences"
+  - "legacy: cards3d - what it left behind"
+  - "recap: summary"
+  - "check: quiz"
+visuals:
+  prefer: [timeline, quote, diagram, cards3d, comparison]
+  avoid: [code, equation, manim, chart]
+narration:
+  tone: storyteller - vivid, grounded, respectful
+  rules:
+    - Use dates and names precisely; say uncertain things as uncertain.
+rules:
+  do:
+    - Give the human stakes, not just dates.
+  dont:
+    - Don't fabricate quotes.

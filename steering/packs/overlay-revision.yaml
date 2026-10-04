@@ -1,0 +1,23 @@
+id: overlay-revision
+name: Overlay - exam revision
+kind: overlay
+priority: 20
+description: Compress any topic into a fast exam-revision video - definitions, formulas, key facts, a quiz.
+match:
+  intents: [revision_notes]
+  keywords: [revise, revision, exam, cheat sheet, quick recap, last minute, important points, notes]
+settings:
+  target_seconds: 55
+  speed: 1.06
+  quiz: true
+visuals:
+  prefer: [definition, bullets, equation, summary, quiz]
+narration:
+  tone: brisk, high-signal, no fluff
+  rules:
+    - Every sentence should be something worth writing in notes.
+rules:
+  do:
+    - Highlight what examiners usually ask.
+  dont:
+    - Don't tell long stories.

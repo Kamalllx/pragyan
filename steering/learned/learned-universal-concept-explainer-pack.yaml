@@ -1,0 +1,55 @@
+id: learned-universal-concept-explainer-pack
+name: Universal Concept Explainer Pack
+kind: pack
+source: learned
+priority: 45
+rating: 5
+description: A generic, reusable steering pack for explaining abstract concepts to
+  a general audience. It utilizes a thematic visual style (e.g., cosmos) to ground
+  abstract ideas, employs kinetic visuals for intuition, uses diagrams for mechanisms,
+  and ends with a quick quiz for retention.
+match:
+  intents:
+  - explain_concept
+  domains:
+  - physics
+  - biology
+  - history
+  - economics_finance
+  - computer_science
+  - geography
+  keywords:
+  - concept
+  - mechanism
+  - intuition
+  - equation
+  - example
+  - quiz
+settings:
+  theme: cosmos
+  target_seconds: 75
+arc:
+- 'The Puzzling Question: title - hook'
+- 'The Gut Feeling: kinetic - intuition'
+- 'The Core Idea: definition - definition'
+- 'How It Works: diagram - mechanism'
+- 'The Law Behind It: equation - formal'
+- 'Everyday Examples: cards3d - real_world'
+- 'Quick Check: quiz - check'
+narration:
+  rules:
+  - Never invent facts; strictly adhere to provided source material.
+  - Do not include specific topic names, proper nouns, or numerical data unless generic
+    placeholders are used.
+  - Maintain a fast pace between beats to match the 'Great pacing' rating.
+  - Ensure the visual description matches the purpose of the beat exactly.
+rules:
+  do:
+  - Abstract the successful scene arc into a generic template.
+  - Remove all topic-specific content (physics terms, specific laws, etc.).
+  - Output only the JSON structure containing the generic beats.
+  dont:
+  - Include specific physics examples (e.g., gravity, entropy).
+  - Add introductory or concluding conversational text.
+  - Modify the successful beat sequence.
+learned_from: 0266c5325d

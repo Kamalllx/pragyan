@@ -1,0 +1,34 @@
+id: compare-decide
+name: Compare & decide
+kind: pack
+priority: 30
+description: Compare two or more options, technologies, ideas or approaches and land on a clear verdict.
+match:
+  intents: [compare]
+  keywords: [vs, versus, compare, difference, better, which, pros and cons]
+settings:
+  theme: midnight
+  background: grid
+  target_seconds: 70
+  quiz: true
+  manim: avoid
+arc:
+  - "hook: title - the dilemma"
+  - "criteria: bullets - what actually matters"
+  - "head to head: comparison - side by side"
+  - "numbers: chart or stats - measured differences (if known)"
+  - "when to pick which: cards3d - scenarios"
+  - "verdict: kinetic - the decision rule"
+  - "recap: summary"
+visuals:
+  prefer: [comparison, chart, cards3d, bullets]
+  avoid: [manim, timeline]
+narration:
+  tone: fair, decisive, practical
+  rules:
+    - Name the criteria before judging.
+rules:
+  do:
+    - End with a crisp rule of thumb.
+  dont:
+    - Don't declare a winner without stating the condition.

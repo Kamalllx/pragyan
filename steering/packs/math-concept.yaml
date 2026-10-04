@@ -1,0 +1,36 @@
+id: math-concept
+name: Maths concept (visual intuition)
+kind: pack
+priority: 42
+description: Build visual intuition for a mathematical idea - theorem, function, transformation, calculus or probability concept - in the style of a visual maths explainer.
+match:
+  intents: [explain_concept]
+  domains: [mathematics]
+  keywords: [theorem, function, derivative, integral, matrix, vector, probability, calculus, geometry, proof, series, limit, fourier, eigen]
+settings:
+  theme: chalk
+  background: shader
+  target_seconds: 90
+  quiz: true
+  manim: prefer
+arc:
+  - "hook: title - a question that the concept answers"
+  - "picture first: manim - show it moving before naming it"
+  - "name it: definition - formal name + plain-language analogy"
+  - "the rule: equation - the key formula, built step by step"
+  - "see it again: manim - the formula acting on the picture"
+  - "why it matters: cards3d - where it is used"
+  - "recap: summary"
+  - "check: quiz"
+visuals:
+  prefer: [manim, equation, definition, steps]
+  avoid: [orbit3d, timeline, quote]
+narration:
+  tone: wonder-driven, precise, visual-first
+  rules:
+    - Describe what the viewer sees on screen at each moment.
+rules:
+  do:
+    - Show before you tell - picture first, symbols second.
+  dont:
+    - Don't stack more than two formulas in one scene.

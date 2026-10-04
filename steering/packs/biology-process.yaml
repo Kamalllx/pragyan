@@ -1,0 +1,36 @@
+id: biology-process
+name: Life-science process
+kind: pack
+priority: 38
+description: Explain a biological or chemical process (cycles, pathways, systems, reactions) as a flow of stages with the key players.
+match:
+  intents: [explain_concept]
+  domains: [biology, chemistry]
+  keywords: [cell, photosynthesis, respiration, dna, protein, enzyme, reaction, cycle, organ, immune, evolution, molecule]
+settings:
+  theme: solar
+  background: particles
+  target_seconds: 85
+  quiz: true
+  manim: allow
+arc:
+  - "hook: title - the everyday mystery"
+  - "players: orbit3d - the key molecules or organs around the process"
+  - "process: diagram - the stages as a flow"
+  - "zoom in: steps - the critical stage in detail"
+  - "balance: equation - the overall reaction (if one exists)"
+  - "where it goes wrong: comparison - healthy vs broken"
+  - "recap: summary"
+  - "check: quiz"
+visuals:
+  prefer: [diagram, orbit3d, steps, equation, comparison]
+  avoid: [code, chart]
+narration:
+  tone: vivid, tactile, wonder at living machinery
+  rules:
+    - Personify molecules sparingly and accurately.
+rules:
+  do:
+    - Name inputs and outputs of every stage.
+  dont:
+    - Don't oversimplify into wrong statements.

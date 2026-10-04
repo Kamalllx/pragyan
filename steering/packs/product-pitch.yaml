@@ -1,0 +1,37 @@
+id: product-pitch
+name: Product / project launch film
+kind: pack
+priority: 35
+description: Cinematic launch or pitch video for a product, startup, project or hackathon idea - problem, insight, how it works, features, impact.
+match:
+  intents: [product_pitch]
+  domains: [business_product, computer_science, engineering, general]
+  keywords: [product, startup, launch, pitch, project, app, platform, hackathon, demo, introducing, our]
+settings:
+  theme: midnight
+  background: shader
+  voice: am_onyx
+  speed: 1.03
+  target_seconds: 60
+  quiz: false
+  manim: avoid
+arc:
+  - "cold open: kinetic - the pain, in three short lines"
+  - "reveal: title - product name + one-line promise"
+  - "how it works: diagram - the system in motion"
+  - "ecosystem: orbit3d - the capabilities around the core"
+  - "features: cards3d - three standout features"
+  - "proof: stats - impact numbers (only if provided)"
+  - "close: kinetic - the vision line"
+visuals:
+  prefer: [kinetic, diagram, orbit3d, cards3d, stats, comparison]
+  avoid: [equation, quiz, steps, manim]
+narration:
+  tone: confident, cinematic, minimal - every word earns its place
+  rules:
+    - Short punchy sentences. Rhythm matters.
+rules:
+  do:
+    - Lead with the user's pain, not the technology.
+  dont:
+    - Don't list more than three features.
